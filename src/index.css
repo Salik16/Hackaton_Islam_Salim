@@ -1,11 +1,13 @@
 body {
-  margin: 0 50px;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-image: url("https://celes.club/uploads/posts/2022-05/thumbs/1653695727_37-celes-club-p-fon-iz-starikh-filmov-krasivie-38.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 code {
