@@ -1,8 +1,17 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
+import { Route, Routes } from "react-router-dom";
+import MainLayout from "../layouts/Mainlayost";
+import HomePage from "../components/HomePage";
 
 const MainRoutes = () => {
-  return <Navbar />;
+  return (
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<HomePage />} />
+      </Route>
+    </Routes>
+  );
 };
 
 export default MainRoutes;

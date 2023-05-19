@@ -12,8 +12,10 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import SlideshowIcon from "@mui/icons-material/Slideshow";
+import { Link } from "react-router-dom";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = [{ title: "Films", link: "/" }];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Navbar() {
@@ -39,7 +41,9 @@ function Navbar() {
     <AppBar position="static" color="transparent">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <SlideshowIcon
+            sx={{ display: { xs: "none", md: "flex" }, mr: 1, color: "yellow" }}
+          />
           <Typography
             variant="h6"
             noWrap
@@ -49,7 +53,7 @@ function Navbar() {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "black",
+              color: "yellow",
               textDecoration: "none",
             }}
           >
@@ -87,12 +91,20 @@ function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography
+                    component={Link}
+                    to={page.link}
+                    textAlign="center"
+                  >
+                    {page.title}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <AdbIcon
+            sx={{ color: "yellow", display: { xs: "flex", md: "none" }, mr: 1 }}
+          />
           <Typography
             variant="h5"
             noWrap
@@ -116,9 +128,11 @@ function Navbar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "black", display: "block" }}
+                sx={{ my: 2, color: "yellow", display: "block" }}
+                component={Link}
+                to={page.link}
               >
-                {page}
+                {page.title}
               </Button>
             ))}
           </Box>
@@ -147,7 +161,9 @@ function Navbar() {
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+                  <Typography sx={{ color: "black" }} textAlign="center">
+                    {setting}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
