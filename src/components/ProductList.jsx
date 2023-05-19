@@ -15,6 +15,7 @@ import {
 import { useSearchParams } from "react-router-dom";
 import { LIMIT } from "../const";
 import { useProduct } from "../contexts/ProductsContextProvider";
+import ProductCard from "./ProductCard";
 
 const ProductList = () => {
   const { products, getProduct, pageTotalCount } = useProduct();
@@ -116,7 +117,7 @@ const ProductList = () => {
       <Grid container spacing={2}>
         {products.map((item) => (
           <Grid key={item.id} item md={4} sm={6} sx={12}>
-            {/* <ProductCard item={item} key={item.id} /> */}
+            <ProductCard item={item} key={item.id} />
           </Grid>
         ))}
       </Grid>
