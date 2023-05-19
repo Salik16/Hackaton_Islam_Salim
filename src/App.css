@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   height: 100%;
+
+  background-color: rgb(190, 190, 33);
+  background-size: 100%;
 }
