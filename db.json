@@ -2,27 +2,413 @@
   "products": [
     {
       "id": 1,
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": "100",
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
+      "title": "Зеленая миля",
+      "image": "https://flxt.tmsimg.com/assets/p24429_p_v12_bf.jpg",
+      "description": "Драматическая история о стражнике исправительного учреждения и заключенном, обладающем невероятным даром.",
+      "category": "драма",
+      "price": "200"
     },
     {
       "id": 2,
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-      "rating": {
-        "rate": 4.1,
-        "count": 259
-      }
+      "title": "Побег из Шоушенка",
+      "image": "https://pics.filmaffinity.com/The_Shawshank_Redemption-576140557-large.jpg",
+      "description": "История банкира Энди Дюфрейна, осужденного за убийство и его попытка сбежать из тюрьмы Шоушенк.",
+      "category": "драма",
+      "price": "200"
+    },
+    {
+      "id": 3,
+      "title": "Темный рыцарь",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
+      "description": "Супергеройский боевик, где Бэтмен сталкивается с преступником-джокером.",
+      "category": "боевик",
+      "price": "200"
+    },
+    {
+      "id": 4,
+      "title": "Интерстеллар",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/c/c3/Interstellar_2014.jpg",
+      "description": "Увлекательное путешествие к галактикам в поисках нового дома для человечества.",
+      "category": "научная фантастика",
+      "price": "200"
+    },
+    {
+      "id": 5,
+      "title": "Матрица",
+      "image": "https://www.mirf.ru/wp-content/uploads/2017/10/matrix.jpg",
+      "description": "Научно-фантастический боевик, где человечество живет в иллюзорном мире, созданном компьютерами.",
+      "category": "научная фантастика",
+      "price": "200"
+    },
+    {
+      "id": 6,
+      "title": "Звездные войны: Эпизод IV - Новая надежда",
+      "image": "https://rus.team/images/article/50932/2019-05-24-407_84474-1_902402.webp",
+      "description": "Первая часть знаменитой космической саги, где молодой фермер Люк Скайуокер становится героем борьбы с Империей.",
+      "category": "фантастика",
+      "price": "200"
+    },
+    {
+      "id": 7,
+      "title": "Властелин колец: Возвращение короля",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/a/a9/%D0%92%D0%9A_%D0%92%D0%9A_soundtrack.jpg",
+      "description": "Завершающая часть эпической фэнтезийной трилогии о борьбе за Средиземье.",
+      "category": "фэнтези",
+      "price": "200"
+    },
+    {
+      "id": 8,
+      "title": "Назад в будущее",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c62c09c4d546e27dc1016c7/1680560388420-A7EO6JND0C2ZOUUZEE9P/BTTF+-+Casey+Likes+%26+Roger+Bart+-+Logo+-+Photo+by+Hugo+Glendinning.jpg?format=1500w",
+      "description": "Путешествие во времени, где молодой Марти МакФлай попадает в прошлое и меняет свое будущее.",
+      "category": "комедия",
+      "price": "200"
+    },
+    {
+      "id": 9,
+      "title": "Криминальное чтиво",
+      "image": "https://faroutmagazine.co.uk/static/uploads/2021/08/Samuel-L.-Jackson-and-John-Travolta-as-mob-hit-men-Jules-Winnfield-and-Vincent-Vega-in-Pulp-Fiction.jpg",
+      "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
+      "category": "криминал",
+      "price": "200"
+    },
+    {
+      "id": 10,
+      "title": "Леон",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD018gVTzzIlJKqyeKug9MMm38THFQgMOVDQ&usqp=CAU",
+      "description": "Тихий убийца Леон становится опекуном маленькой девочки Матильды, их жизни меняются навсегда.",
+      "category": "триллер",
+      "price": "330"
+    },
+    {
+      "id": 11,
+      "title": "Форрест Гамп",
+      "image": "https://gumlet.assettype.com/film-companion%2Fimport%2Fwp-content%2Fuploads%2F2017%2F09%2Fforrest20gump.jpg?auto=format%2Ccompress&fit=max&w=400&dpr=2.6",
+      "description": "История простого человека с ограниченными возможностями, который стал влиятельным и удачливым.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 12,
+      "title": "Бойцовский клуб",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/Fight_club.jpg/640px-Fight_club.jpg",
+      "description": "Две личности, борющиеся с современным потребительским обществом в подпольном бойцовском клубе.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 13,
+      "title": "Хороший, плохой, злой",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8b9d4616-9426-4c74-a63c-296189f28213/600x900",
+      "description": "Классический вестерн, где три бандита ищут сокровище во времена Гражданской войны в США.",
+      "category": "вестерн",
+      "price": "330"
+    },
+    {
+      "id": 14,
+      "title": "Список Шиндлера",
+      "image": "https://m.media-amazon.com/images/I/817sLmprCSL._AC_UF894,1000_QL80_.jpg",
+      "description": "История Оскара Шиндлера, который спасает евреев от гибели во время Холокоста.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 15,
+      "title": "В погоне за счастьем",
+      "image": "https://images.moviesanywhere.com/08b5312f6334adf18414ccfb2093960a/80420ae5-16eb-41ce-b0be-a6f2a04b1a16.jpg",
+      "description": "История Криса Гарднера, который из бездомного становится успешным бизнесменом.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 16,
+      "title": "Престиж",
+      "image": "https://images.moviesanywhere.com/4d9df0e6b0bd732b3d1fa967b5b919fa/1adaca39-ae5e-4867-91fd-6025d3d08eb4.jpg?h=375&resize=fit&w=250",
+      "description": "Соперничество двух иллюзионистов, которое выходит за рамки сцены.",
+      "category": "триллер",
+      "price": "330"
+    },
+    {
+      "id": 17,
+      "title": "Титаник",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjCxUAkVFRS3wtyg3AjYTF2cwttzf6hlrLv7vQfitAEK3wd2haosedT0mEulRpcpCNBg&usqp=CAU",
+      "description": "Любовная история на фоне крушения легендарного парохода Титаник.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 18,
+      "title": "Гладиатор",
+      "image": "https://ru-images-s.kinorium.com/movie/1080/143897.jpg?1678576575",
+      "description": "История генерала, ставшего рабом-гладиатором, который борется за свободу и мести.",
+      "category": "боевик",
+      "price": "330"
+    },
+    {
+      "id": 19,
+      "title": "Джанго освобожденный",
+      "image": "https://images.squarespace-cdn.com/content/v1/5cc6f46504907969c57db97b/1584651813423-QT3PWJD44GRI95XDMWHU/django+unchained+3.jpg?format=1000w",
+      "description": "Бывший раб Джанго и охотник на головы Шульц объединяются для освобождения жены Джанго.",
+      "category": "вестерн",
+      "price": "330"
+    },
+    {
+      "id": 20,
+      "title": "Безумный Макс: Дорога ярости",
+      "image": "https://thumbs.dfs.ivi.ru/storage30/contents/b/a/b606b442750b914e24b13d1b7309c3.jpg",
+      "description": "Жестокая борьба за выживание в постапокалиптическом мире, где вода и бензин являются ценным ресурсом.",
+      "category": "экшн",
+      "price": "330"
+    },
+    {
+      "id": 21,
+      "title": "Однажды в Голливуде",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/70580cf5-3287-42d6-8a76-2c715e2f6172/600x900",
+      "description": "История актера и его каскадера в Голливуде конца 60-х годов.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 22,
+      "title": "В бой идут одни 'старики'",
+      "image": "https://i.ebayimg.com/images/g/9UIAAMXQC-tTEVUY/s-l1600.jpg",
+      "description": "Драматическая история советских солдат во время Великой Отечественной войны.",
+      "category": "военный",
+      "price": "330"
+    },
+    {
+      "id": 23,
+      "title": "В джазе только девушки",
+      "image": "https://citaty.info/files/posters/3248.jpg",
+      "description": "Комедийная история о музыкантах, скрывающихся в женской группе после случайного убийства.",
+      "category": "комедия",
+      "price": "330"
+    },
+    {
+      "id": 24,
+      "title": "Бегущий по лезвию 2049",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
+      "description": "Офицер по уничтожению биоинженерных репликантов раскрывает тайну, которая может потрясти общество.",
+      "category": "научная фантастика",
+      "price": "330"
+    },
+    {
+      "id": 25,
+      "title": "Тихое место",
+      "image": "https://static.wikia.nocookie.net/aquietplace/images/e/e3/A_Quiet_Place_poster_5.jpg/revision/latest?cb=20221231035452",
+      "description": "Семья выживает в мире, где звук может привлечь смертоносных существ.",
+      "category": "ужасы",
+      "price": "330"
+    },
+    {
+      "id": 26,
+      "title": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "image": "https://m.media-amazon.com/images/I/5191qhJ6XsL._AC_UF894,1000_QL80_.jpg",
+      "description": "Пиратские приключения капитана Джека Воробья и проклятого корабля Черной жемчужины.",
+      "category": "приключения",
+      "price": "330"
+    },
+    {
+      "id": 27,
+      "title": "Хатико: Самый верный друг",
+      "image": "https://www.sosyalelestiri.com/wp-content/uploads/2018/02/864bfe340bab816874c8ce195ab0dc32.jpg",
+      "description": "История верности собаки по кличке Хатико, который ждал своего хозяина на станции много лет.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 28,
+      "title": "ВАЛЛ-И",
+      "image": "https://m.media-amazon.com/images/I/91vYNYvKXvL._RI_.jpg",
+      "description": "Мультфильм о роботе-уборщике, оставшемся на Земле после ухода людей и влюбившемся в другого робота.",
+      "category": "анимация",
+      "price": "330"
+    },
+
+    {
+      "id": 30,
+      "title": "Трасса 60",
+      "image": "https://thumbs.dfs.ivi.ru/storage28/contents/b/0/c0abbc6ea2d809fa3c73647819204f.jpg",
+      "description": "Драматическая история трех друзей, которые отправляются в путешествие по американской дороге Route 60.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 31,
+      "title": "Бегущий человек",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d7596f3c-7b4a-4c16-81db-dc57ac11c039/600x900",
+      "description": "Бывший врач, обвиненный в убийстве жены, бежит от закона, чтобы доказать свою невиновность.",
+      "category": "триллер",
+      "price": "330"
+    },
+    {
+      "id": 32,
+      "title": "Апокалипсис сегодня",
+      "image": "https://images4.alphacoders.com/144/thumb-1920-144856.jpg",
+      "description": "История офицера, отправленного на задание убить полковника, ставшего безумным во время войны во Вьетнаме.",
+      "category": "военный",
+      "price": "330"
+    },
+    {
+      "id": 33,
+      "title": "Молчание ягнят",
+      "image": "https://www.sociofilm.net/wp-content/uploads/2015/08/image_wall_6439.jpg",
+      "description": "Молодая агентка ФБР просит помощи у заключенного серийного убийцы, чтобы поймать другого маньяка.",
+      "category": "триллер",
+      "price": "330"
+    },
+    {
+      "id": 34,
+      "title": "Бриллиантовая рука",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqyybzMks2YCpISZ26EWuYiW1CVZyuarciJbvxq__gDJM1ejzEbzpEL6xP9rkmnkY_sU&usqp=CAU",
+      "description": "Комедия о неудачливом краже бриллиантов и запутанной истории вокруг киноиндустрии.",
+      "category": "комедия",
+      "price": "330"
+    },
+    {
+      "id": 35,
+      "title": "Огни большого города",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk2MzE4ODg4MV5BMl5BanBnXkFtZTYwMzEzNDQ5._V1_.jpg",
+      "description": "Драматическая комедия о бродячем артисте и богатой слепой девушке, которая его не узнает.",
+      "category": "комедия",
+      "price": "330"
+    },
+    {
+      "id": 36,
+      "title": "Исход",
+      "image": "https://www.castlerock.ru/upload/medialibrary/906/906d3fe962f33346a6a86cab5b362437.JPG",
+      "description": "История Моисея, который ведет еврейский народ к освобождению из египетского рабства.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 37,
+      "title": "Шрэк",
+      "image": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/Shrek_AC0930D7-C152-6041-01DD91528A8E5F4D_ac253662-f5e4-0192-1f656ad08be746fc.jpg",
+      "description": "Мультфильм о зеленом огре Шрэке, который отправляется на спасение принцессы Фионы.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 38,
+      "title": "Темный рыцарь: Возрождение легенды",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dark_Knight_Rises.jpg",
+      "description": "Финальная часть трилогии о Бэтмене, который сталкивается с террористом Бейном.",
+      "category": "боевик",
+      "price": "330"
+    },
+    {
+      "id": 39,
+      "title": "Достучаться до небес",
+      "image": "https://cdn.inprnt.com/thumbs/26/fb/26fbbbe9f1b72aaec9aa1b2de35bacd0.jpg?response-cache-control=max-age=2628000",
+      "description": "Двое парней, узнав о своей неизлечимой болезни, отправляются в путешествие на последнюю свою неделю жизни.",
+      "category": "драма",
+      "price": "330"
+    },
+    {
+      "id": 40,
+      "title": "Голодные игры",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3mWB4dcdWeahHN5iCy7wIyHqEaLUvKJWmQ&usqp=CAU",
+      "description": "Фантастический боевик о девушке, вынужденной сражаться за выживание в жестокой игре.",
+      "category": "фантастика",
+      "price": "330"
+    },
+    {
+      "id": 41,
+      "title": "Криминальное чтиво",
+      "image": "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/2/mia-wallace-giuseppe-cristiano.jpg",
+      "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
+      "category": "криминал",
+      "price": "330"
+    },
+    {
+      "id": 42,
+      "title": "Лунтик",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/cf021e0a-081b-4755-8147-d6284f3bfee2/600x900",
+      "description": "Забавный мультсериал о маленьком желтом существе по имени Лунтик и его друзьях, которые исследуют мир и решают разные задачи.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 43,
+      "title": "Приключения Алисы",
+      "image": "https://cdn.azbooka.ru/cv/w1100/ea70df56-205c-4753-b676-3036a72b54c1.jpg",
+      "description": "Фантастический мультфильм о маленькой девочке по имени Алиса, которая попадает в волшебный мир и встречает удивительных существ.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 44,
+      "title": "Том и Джерри",
+      "image": "https://www.m24.ru/b/d/nBkSUhL2hFAlms6_Ib6BvMKnxdDs9Zu-yyqYy7jLs2KQeXqLBmmcmzZh59JUtRPBsdaJqSfJd54qEr7t1mNwKSGK7WY=yXkLz_GRk7EdOYx7q-pHHA.jpg",
+      "description": "Классический мультсериал о вечной схватке кошки Тома и мышки Джерри, которые постоянно попадают в забавные и непредсказуемые ситуации.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 45,
+      "title": "Король Лев",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/6/62/Lion_king_ver1.jpg",
+      "description": "Эпическая анимационная история о молодом льве Симбе, который должен пройти свой путь, чтобы стать королем Саванны.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 46,
+      "title": "Красавица и Чудовище",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/ed078f6d-65a8-4c2c-a8df-aba6383b841f/600x900",
+      "description": "Романтический мультфильм о прекрасной девушке Белль, которая встречает загадочное Чудовище и узнает, что красота находится внутри.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 47,
+      "title": "Как приручить дракона",
+      "image": "https://static.kinoafisha.info/k/movie_posters/canvas/800x1200/upload/movie_posters/0/1/9/5636910/9ffa7b6ae0ae0db22e228df85100c90f.jpg",
+      "description": "Приключенческая история о юном Викинге Хиккапе, который дружит с драконом Беззубиком и помогает установить мир между людьми и драконами",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 48,
+      "title": "Загадочный сад",
+      "image": "https://thumbs.dfs.ivi.ru/storage38/contents/1/8/b5bb1687c87dc1668b96ae85cfedc7.jpg",
+      "description": "История о девочке, которая открывает тайный сад и вместе с новыми друзьями восстанавливает его к жизни.",
+      "category": "анимация",
+      "price": "330"
+    },
+
+    {
+      "id": 50,
+      "title": "Атлантида: Затерянный мир ",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/f98bcf6d-d34c-4d4d-b3cc-f5325bbe3e0d/300x450",
+      "description": "Группа друзей обнаруживает тайну затерянного острова и сталкивается с опасностями в своем стремлении раскрыть его загадку.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 51,
+      "title": "Приключения волшебного пера",
+      "image": "https://cm.author.today/content/2023/04/10/a6aec91bc84e4da89a14e139dbcbf601.jpg?height=750&width=750&rmode=max",
+      "description": "Маленький мальчик обнаруживает волшебное перо, которое превращает все его рисунки в реальность, и начинает увлекательные приключения.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 52,
+      "title": "Забытый мир динозавров",
+      "image": "https://static.onlinemultfilmy.ru/img/zateryannyj-mir-ostrov-dinozavrov.jpg",
+      "description": "Группа исследователей попадает в забытый мир, населенный динозаврами, и они должны найти способ вернуться назад.",
+      "category": "анимация",
+      "price": "330"
+    },
+    {
+      "id": 53,
+      "title": "Приключения маленькой рыбки",
+      "image": "https://static.onlinemultfilmy.ru/img/malenkaya-rybka-poslednyaya-bitva.jpg",
+      "description": "Маленькая рыбка отправляется в увлекательное путешествие по океану, где она встречает новых друзей и познает опасности морского мира.",
+      "category": "анимация",
+      "price": "330"
     }
   ]
 }

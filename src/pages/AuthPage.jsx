@@ -13,6 +13,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { useAuth } from "../contexts/AuthContextProvider";
+import { NavLink } from "react-router-dom";
 
 function Copyright(props) {
   return (
@@ -56,7 +57,7 @@ export default function AuthPage() {
   };
 
   return (
-    <Box sx={{ backgroundColor: "yellow" }}>
+    <Box>
       {" "}
       <ThemeProvider theme={theme}>
         <Container component="main" maxWidth="xs">

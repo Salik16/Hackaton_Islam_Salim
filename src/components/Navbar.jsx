@@ -12,12 +12,14 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import LiveTvIcon from "@mui/icons-material/LiveTv";
+
 import { Link } from "react-router-dom";
 import { Badge } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
 import { useAuth } from "../contexts/AuthContextProvider";
 import { useCart } from "../contexts/CartContextProvider";
+
+import { useProduct } from "../contexts/ProductsContextProvider";
 
 const pages = [{ title: "Films", link: "/" }];
 const adminPages = [{ title: "Add Product", link: "/add" }];
@@ -42,18 +44,22 @@ function Navbar() {
   };
   const { user, logout, isAdmin } = useAuth();
   const { cartLength, getCart } = useCart();
+  const { getProduct } = useProduct();
 
   React.useEffect(() => {
     getCart();
   }, []);
 
   return (
-    <AppBar position="static" color="transparent">
+    <AppBar position="static" sx={{ backgroundColor: "-moz-initial" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <LiveTvIcon
-            sx={{ display: { xs: "none", md: "flex" }, mr: 1, color: "black" }}
+          <img
+            src="https://shoutoutla.com/wp-content/uploads/2023/01/c-RyanScaringe__KinogoBlackLOGO_1672271420710.jpg"
+            alt=""
+            height={40}
           />
+
           <Typography
             variant="h6"
             noWrap
@@ -67,7 +73,7 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            FilmFocus
+            KinoGo
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -103,9 +109,10 @@ function Navbar() {
                 ? pages.concat(adminPages).map((page) => (
                     <MenuItem key={page.title} onClick={handleCloseNavMenu}>
                       <Typography
-                        textAlign="center"
+                        textalign="center"
                         component={Link}
                         to={page.link}
+                        color="black"
                       >
                         {page.title}
                       </Typography>
@@ -114,9 +121,10 @@ function Navbar() {
                 : pages.map((page) => (
                     <MenuItem key={page.title} onClick={handleCloseNavMenu}>
                       <Typography
-                        textAlign="center"
+                        textalign="center"
                         component={Link}
                         to={page.link}
+                        color="black"
                       >
                         {page.title}
                       </Typography>
@@ -166,10 +174,11 @@ function Navbar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <IconButton component={Link} to="/cart" sx={{ color: "white" }}>
-              <Badge badgeContent={cartLength} color="error">
+              <Badge badgeContent={cartLength} color="default">
                 <ShoppingCart sx={{ color: "black" }} />
               </Badge>
             </IconButton>
+
             {user ? (
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -203,8 +212,18 @@ function Navbar() {
               onClose={handleCloseUserMenu}
             >
               <MenuItem onClick={logout}>
-                <Typography textAlign="center">Log Out</Typography>
+                <Typography textalign="center">Log Out</Typography>
               </MenuItem>
+              {isAdmin() ? (
+                <Button
+                  sx={{ color: "black" }}
+                  component={Link}
+                  to="/add"
+                  textalign="center"
+                >
+                  Add Product
+                </Button>
+              ) : null}
             </Menu>
           </Box>
         </Toolbar>
