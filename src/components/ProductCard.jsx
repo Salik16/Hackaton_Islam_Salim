@@ -5,18 +5,20 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { useProduct } from "../contexts/ProductContextProvider";
+// import { useProduct } from "../contexts/ProductContextProvider";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
 import { AddShoppingCart } from "@mui/icons-material";
+import { useCart } from "../contexts/CartContextProvider";
+import { useProduct } from "../contexts/ProductsContextProvider";
 
 export default function ProductCard({ item }) {
   const { deleteProduct } = useProduct();
-  const { addProductToCart, isAlreadyInCart, deleteFromCart } = useCar();
+  const { addProductToCart, isAlreadyInCart, deleteFromCart } = useCart();
 
   return (
-    <Card sx={{ maxWidth: 345, bgcolor: "red" }}>
-      <CardMedia sx={{ height: 140 }} image={item.image} title="green iguana" />
+    <Card sx={{ maxWidth: 345, bgcolor: "black" }}>
+      <CardMedia sx={{ height: 140 }} image={item.image} title={item.title} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {item.title}
