@@ -5,45 +5,85 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-// import { useProduct } from "../contexts/ProductContextProvider";
+import { useProduct } from "../contexts/ProductsContextProvider";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
 import { AddShoppingCart } from "@mui/icons-material";
 import { useCart } from "../contexts/CartContextProvider";
-import { useProduct } from "../contexts/ProductsContextProvider";
+import { useAuth } from "../contexts/AuthContextProvider";
 
 export default function ProductCard({ item }) {
   const { deleteProduct } = useProduct();
   const { addProductToCart, isAlreadyInCart, deleteFromCart } = useCart();
+  const { isAdmin } = useAuth();
 
   return (
-    <Card sx={{ maxWidth: 345, bgcolor: "black" }}>
-      <CardMedia sx={{ height: 140 }} image={item.image} title={item.title} />
+    <Card sx={{ maxWidth: 350, bgcolor: "#1976d2" }}>
+      <CardMedia sx={{ height: 400 }} image={item.image} title={item.title} />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          color={" rgb(214, 214, 214)"}
+          component="div"
+        >
           {item.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color={" rgb(214, 214, 214)"}>
           {item.price}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small" component={Link} to={`/details/${item.id}`}>
-          Details
-        </Button>
-        <Button size="small" component={Link} to={`/edit/${item.id}`}>
-          Edit
-        </Button>
-        <Button size="small" onClick={() => deleteProduct(item.id)}>
-          Delete
-        </Button>
-        <IconButton
-          onClick={() => addProductToCart(item)}
-          color={isAlreadyInCart(item.id) ? "error" : "primary"}
-        >
-          <AddShoppingCart />
-        </IconButton>
-      </CardActions>
+      {isAdmin() ? (
+        <CardActions>
+          <Button
+            size="small"
+            sx={{ color: " rgb(214, 214, 214)" }}
+            component={Link}
+            to={`/details/${item.id}`}
+          >
+            Details
+          </Button>
+          <Button
+            size="small"
+            sx={{ color: " rgb(214, 214, 214)" }}
+            component={Link}
+            to={`/edit/${item.id}`}
+          >
+            Edit
+          </Button>
+          <Button
+            size="small"
+            sx={{ color: " rgb(214, 214, 214)" }}
+            onClick={() => deleteProduct(item.id)}
+          >
+            Delete
+          </Button>
+          <IconButton
+            onClick={() => addProductToCart(item)}
+            sx={{ color: `${isAlreadyInCart(item.id) ? "red" : "black"}` }}
+          >
+            <AddShoppingCart />
+          </IconButton>
+        </CardActions>
+      ) : (
+        <CardActions>
+          <Button
+            size="small"
+            sx={{ color: "black" }}
+            component={Link}
+            to={`/details/${item.id}`}
+          >
+            Details
+          </Button>
+          <IconButton
+            onClick={() => addProductToCart(item)}
+            sx={{ color: `${isAlreadyInCart(item.id) ? "red" : "black"}` }}
+          >
+            Add To Cart
+            <AddShoppingCart />
+          </IconButton>
+        </CardActions>
+      )}
     </Card>
   );
 }

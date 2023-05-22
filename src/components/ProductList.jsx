@@ -19,14 +19,13 @@ import ProductCard from "./ProductCard";
 
 const ProductList = () => {
   const { products, getProduct, pageTotalCount } = useProduct();
-  const [page, setPage] = useState(1);
   const [searchParams, setSearchParams] = useSearchParams();
 
+  const [page, setPage] = useState(1);
   const [search, setSearch] = useState(searchParams.get("q") || "");
   const [category, setCategory] = useState(
     searchParams.get("category") || "all"
   );
-
   useEffect(() => {
     if (category === "all") {
       setSearchParams({
@@ -77,6 +76,7 @@ const ProductList = () => {
 
   return (
     <div>
+      {" "}
       <Box
         sx={{
           maxWidth: 300,
@@ -105,18 +105,24 @@ const ProductList = () => {
             onChange={(e) => setCategory(e.target.value)}
             sx={{ color: "black" }}
           >
-            <MenuItem value={"all"}>All</MenuItem>
-            <MenuItem value={"electronics"}>Electronics</MenuItem>
-            <MenuItem value={"jewelery"}>Jewelery</MenuItem>
-            <MenuItem value={"books"}>Books</MenuItem>
-            <MenuItem value={"women's clothing"}>Women's clothing</MenuItem>
-            <MenuItem value={"men's clothing"}>Men's clothing</MenuItem>
+            <MenuItem value={"all"}>Все</MenuItem>
+            <MenuItem value={"драма"}>Драма</MenuItem>
+            <MenuItem value={"боевик"}>Боевик</MenuItem>
+            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
+            <MenuItem value={"триллер"}>Триллер</MenuItem>
+            <MenuItem value={"экшн"}>Экшэн</MenuItem>
+            <MenuItem value={"военный"}>Военный</MenuItem>
+            <MenuItem value={"комедия"}>Комедия</MenuItem>
+            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
+            <MenuItem value={"приключения"}>Приключения</MenuItem>
+            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
+            <MenuItem value={"анимация"}>Анимация</MenuItem>
           </Select>
         </FormControl>
       </Box>
       <Grid container spacing={2}>
         {products.map((item) => (
-          <Grid key={item.id} item md={4} sm={6} sx={12}>
+          <Grid key={item.id} item md={4} sm={6}>
             <ProductCard item={item} key={item.id} />
           </Grid>
         ))}
@@ -126,7 +132,7 @@ const ProductList = () => {
           page={page}
           count={pageTotalCount}
           onChange={(e, p) => setPage(p)}
-          color="action"
+          color="primary"
         />
       </Box>
     </div>

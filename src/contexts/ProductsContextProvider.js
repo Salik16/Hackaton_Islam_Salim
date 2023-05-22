@@ -46,10 +46,52 @@ const ProductsContextProvider = ({ children }) => {
     }
   }
 
-  const values = {
-    getProduct,
-    pageTotalCount: state.pageTotalCount,
+  const addProduct = async (newProduct) => {
+    try {
+      await axios.post(API, newProduct);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  async function deleteProduct(id) {
+    try {
+      await axios.delete(`${API}/${id}`);
+      getProduct();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async function getOneProduct(id) {
+    try {
+      let res = await axios.get(`${API}/${id}`);
+      dispatch({
+        type: ACTIONS.oneProduct,
+        payload: res.data,
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async function editProduct(obj, id) {
+    try {
+      await axios.patch(`${API}/${id}`, obj);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  let values = {
+    oneProduct: state.oneProduct,
     products: state.products,
+    pageTotalCount: state.pageTotalCount,
+    getProduct,
+    addProduct,
+    deleteProduct,
+    getOneProduct,
+    editProduct,
   };
 
   return (
