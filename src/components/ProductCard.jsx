@@ -83,7 +83,7 @@ export default function ProductCard({ item }) {
               }`,
             }}
           >
-            Add To Cart
+            Add To
             <AddShoppingCart />
           </IconButton>
         </CardActions>
