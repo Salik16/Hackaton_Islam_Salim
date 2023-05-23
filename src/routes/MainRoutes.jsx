@@ -11,6 +11,7 @@ import { useAuth } from "../contexts/AuthContextProvider";
 import AddProductPage from "../pages/AddProductPage";
 import PayPage from "../pages/PayPage";
 import FavPage from "../pages/FavPage";
+import PremiumPage from "../pages/PremiumPage";
 
 const MainRoutes = () => {
   const { user } = useAuth;
@@ -25,6 +26,7 @@ const MainRoutes = () => {
         <Route path="/add" element={<AddProductPage />} />
         <Route path="/pay" element={<PayPage />} />
         <Route path="/fav" element={<FavPage />} />
+        <Route path="/premium" element={<PremiumPage />} />
       </Route>
     </Routes>
   );

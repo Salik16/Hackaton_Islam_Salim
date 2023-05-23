@@ -22,8 +22,13 @@ export default function ProductCard({ item }) {
   const { isAlreadyInFav, addToFavorite } = useFav();
 
   return (
-    <Card sx={{ maxWidth: 350, maxHeight: 600, bgcolor: "#1976d2" }}>
-      <CardMedia sx={{ height: 400 }} image={item.image} title={item.title} />
+    <Card
+      sx={{
+        maxWidth: 350,
+        bgcolor: "#1976d2",
+      }}
+    >
+      <CardMedia sx={{ height: 500 }} image={item.image} title={item.title} />
       <CardContent>
         <Typography
           gutterBottom

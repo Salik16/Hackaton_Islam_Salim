@@ -13,14 +13,17 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Badge } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
 import { useAuth } from "../contexts/AuthContextProvider";
 import { useCart } from "../contexts/CartContextProvider";
 import { useFav } from "../contexts/FavoriteContextProvider";
 
-const pages = [{ title: "Films", link: "/" }];
+const pages = [
+  { title: "Films", link: "/" },
+  { title: "Accessory", link: "/accessory" },
+];
 const adminPages = [{ title: "Add Product", link: "/add" }];
 
 function Navbar() {
@@ -52,12 +55,14 @@ function Navbar() {
     getFav();
   }, []);
 
+  let data = JSON.parse(localStorage.getItem("users"));
+
   return (
     <AppBar position="static" sx={{ backgroundColor: "-moz-initial" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
-            src="https://shoutoutla.com/wp-content/uploads/2023/01/c-RyanScaringe__KinogoBlackLOGO_1672271420710.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmET1hi7QwqE5LsxL3BOFC9gqJo-vrY9Co4Q&usqp=CAU"
             alt=""
             height={40}
           />
@@ -108,8 +113,8 @@ function Navbar() {
               }}
             >
               {isAdmin()
-                ? pages.concat(adminPages).map((page) => (
-                    <MenuItem key={page.title} onClick={handleCloseNavMenu}>
+                ? pages.concat(adminPages).map((page, index) => (
+                    <MenuItem key={index} onClick={handleCloseNavMenu}>
                       <Typography
                         textalign="center"
                         component={Link}
@@ -120,8 +125,8 @@ function Navbar() {
                       </Typography>
                     </MenuItem>
                   ))
-                : pages.map((page) => (
-                    <MenuItem key={page.title} onClick={handleCloseNavMenu}>
+                : pages.map((page, index) => (
+                    <MenuItem key={index} onClick={handleCloseNavMenu}>
                       <Typography
                         textalign="center"
                         component={Link}
@@ -136,9 +141,9 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <Button
-                key={page}
+                key={index}
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
@@ -155,6 +160,15 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
+            {!data.subscr ? (
+              <NavLink
+                style={{ color: "black", textDecoration: "none" }}
+                to={"/premium"}
+              >
+                Get a Premium Subscription
+              </NavLink>
+            ) : null}
+
             <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
               <Badge badgeContent={favLength} color="default">
                 <FavoriteBorderIcon sx={{ color: "black" }} />

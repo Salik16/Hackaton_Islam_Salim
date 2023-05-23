@@ -31,18 +31,36 @@ const AuthContextProvider = ({ children }) => {
 
   async function register({ email, password, displayName, photoURL }) {
     try {
-      await createUserWithEmailAndPassword(auth, email, password);
+      let data = await createUserWithEmailAndPassword(auth, email, password);
+      localStorage.setItem("users", JSON.stringify(data));
       await updateProfile(auth.currentUser, {
         displayName,
         photoURL,
       });
+      addUser();
     } catch (error) {
       notifyError(error.code);
     }
   }
+  function getUser() {
+    let data = JSON.parse(localStorage.getItem("users"));
+
+    return data;
+  }
+  function addUser() {
+    let data = getUser();
+    data = {
+      ...data.user,
+      subscr: false,
+    };
+    localStorage.setItem("users", JSON.stringify(data));
+  }
   async function login({ email, password }) {
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      let data = await signInWithEmailAndPassword(auth, email, password);
+
+      localStorage.setItem("users", JSON.stringify(data));
+      addUser();
     } catch (error) {
       notifyError(error.code);
     }

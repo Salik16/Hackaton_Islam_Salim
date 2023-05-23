@@ -7,7 +7,9 @@
       "description": "Драматическая история о стражнике исправительного учреждения и заключенном, обладающем невероятным даром.",
       "category": "драма",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/Ca3mUSDJlgM"
+      "trailer": " https://www.youtube.com/embed/Ca3mUSDJlgM",
+      "film": "https://p1.oc.kg:8082/video/a/25/The_green_Mile.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "description": "История банкира Энди Дюфрейна, осужденного за убийство и его попытка сбежать из тюрьмы Шоушенк.",
       "category": "драма",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/kgAeKpAPOYk"
+      "trailer": " https://www.youtube.com/embed/kgAeKpAPOYk",
+      "film": "https://p1.oc.kg:8082/video/e/39/Pobeg_sts_ort.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 3,
@@ -25,7 +29,9 @@
       "description": "Супергеройский боевик, где Бэтмен сталкивается с преступником-джокером.",
       "category": "боевик",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/HF1_epZNoCg"
+      "trailer": " https://www.youtube.com/embed/HF1_epZNoCg",
+      "film": "https://p1.oc.kg:8082/video/e/44/Temnoy_ritcar.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 4,
@@ -34,7 +40,9 @@
       "description": "Увлекательное путешествие к галактикам в поисках нового дома для человечества.",
       "category": "научная фантастика",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/qcPfI0y7wRU"
+      "trailer": " https://www.youtube.com/embed/qcPfI0y7wRU",
+      "film": "https://p1.oc.kg:8082/video/b/37/Interstellar.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 5,
@@ -43,7 +51,9 @@
       "description": "Научно-фантастический боевик, где человечество живет в иллюзорном мире, созданном компьютерами.",
       "category": "научная фантастика",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/YihPA42fdQ8"
+      "trailer": " https://www.youtube.com/embed/YihPA42fdQ8",
+      "film": "https://p1.oc.kg:8082/video/d/19/Matrix.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 6,
@@ -52,7 +62,9 @@
       "description": "Первая часть знаменитой космической саги, где молодой фермер Люк Скайуокер становится героем борьбы с Империей.",
       "category": "фантастика",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/1iHt3J6eLKk"
+      "trailer": " https://www.youtube.com/embed/1iHt3J6eLKk",
+      "film": "https://p1.oc.kg:8082/video/a/24/Starvars_ep4.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 7,
@@ -61,7 +73,9 @@
       "description": "Завершающая часть эпической фэнтезийной трилогии о борьбе за Средиземье.",
       "category": "фэнтези",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/r5X-hFf6Bwo"
+      "trailer": " https://www.youtube.com/embed/r5X-hFf6Bwo",
+      "film": "https://p1.oc.kg:8082/video/d/13/Vlast_kolec_vozvr_korolya.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 8,
@@ -70,7 +84,9 @@
       "description": "Путешествие во времени, где молодой Марти МакФлай попадает в прошлое и меняет свое будущее.",
       "category": "комедия",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/ou8w0gQHlRE"
+      "trailer": " https://www.youtube.com/embed/ou8w0gQHlRE",
+      "film": "https://p1.oc.kg:8082/video/a/26/Nazad_v_budushee.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 9,
@@ -79,7 +95,9 @@
       "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
       "category": "криминал",
       "price": "200",
-      "trailer": " https://www.youtube.com/embed/vBADUmfa9Q4"
+      "trailer": " https://www.youtube.com/embed/vBADUmfa9Q4",
+      "film": "https://p1.oc.kg:8082/video/d/18/Pulp_Fiction_1994.mp4?an=0",
+      "raiting": " 4"
     },
     {
       "id": 10,
@@ -88,7 +106,9 @@
       "description": "Тихий убийца Леон становится опекуном маленькой девочки Матильды, их жизни меняются навсегда.",
       "category": "триллер",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/hvya_q8KM80"
+      "trailer": " https://www.youtube.com/embed/hvya_q8KM80",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 11,
@@ -97,7 +117,9 @@
       "description": "История простого человека с ограниченными возможностями, который стал влиятельным и удачливым.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/x-0bvW-_2YI"
+      "trailer": " https://www.youtube.com/embed/x-0bvW-_2YI?r=0",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 12,
@@ -106,7 +128,9 @@
       "description": "Две личности, борющиеся с современным потребительским обществом в подпольном бойцовском клубе.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 13,
@@ -115,7 +139,9 @@
       "description": "Классический вестерн, где три бандита ищут сокровище во времена Гражданской войны в США.",
       "category": "вестерн",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 14,
@@ -124,7 +150,9 @@
       "description": "История Оскара Шиндлера, который спасает евреев от гибели во время Холокоста.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 15,
@@ -133,7 +161,9 @@
       "description": "История Криса Гарднера, который из бездомного становится успешным бизнесменом.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 16,
@@ -142,7 +172,9 @@
       "description": "Соперничество двух иллюзионистов, которое выходит за рамки сцены.",
       "category": "триллер",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 17,
@@ -151,7 +183,9 @@
       "description": "Любовная история на фоне крушения легендарного парохода Титаник.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 18,
@@ -160,7 +194,9 @@
       "description": "История генерала, ставшего рабом-гладиатором, который борется за свободу и мести.",
       "category": "боевик",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 19,
@@ -169,7 +205,9 @@
       "description": "Бывший раб Джанго и охотник на головы Шульц объединяются для освобождения жены Джанго.",
       "category": "вестерн",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 20,
@@ -178,7 +216,9 @@
       "description": "Жестокая борьба за выживание в постапокалиптическом мире, где вода и бензин являются ценным ресурсом.",
       "category": "экшн",
       "price": "330",
-      "trailer": "https://www.youtube.com/embed/an_MiUmpgs0"
+      "trailer": "https://www.youtube.com/embed/an_MiUmpgs0",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 21,
@@ -187,7 +227,9 @@
       "description": "История актера и его каскадера в Голливуде конца 60-х годов.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 22,
@@ -196,7 +238,9 @@
       "description": "Драматическая история советских солдат во время Великой Отечественной войны.",
       "category": "военный",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 23,
@@ -205,7 +249,9 @@
       "description": "Комедийная история о музыкантах, скрывающихся в женской группе после случайного убийства.",
       "category": "комедия",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 24,
@@ -214,7 +260,9 @@
       "description": "Офицер по уничтожению биоинженерных репликантов раскрывает тайну, которая может потрясти общество.",
       "category": "научная фантастика",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 25,
@@ -223,7 +271,9 @@
       "description": "Семья выживает в мире, где звук может привлечь смертоносных существ.",
       "category": "ужасы",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 26,
@@ -232,7 +282,9 @@
       "description": "Пиратские приключения капитана Джека Воробья и проклятого корабля Черной жемчужины.",
       "category": "приключения",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 27,
@@ -241,7 +293,9 @@
       "description": "История верности собаки по кличке Хатико, который ждал своего хозяина на станции много лет.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 28,
@@ -250,7 +304,9 @@
       "description": "Мультфильм о роботе-уборщике, оставшемся на Земле после ухода людей и влюбившемся в другого робота.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 30,
@@ -259,7 +315,9 @@
       "description": "Драматическая история трех друзей, которые отправляются в путешествие по американской дороге Route 60.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 31,
@@ -268,7 +326,9 @@
       "description": "Бывший врач, обвиненный в убийстве жены, бежит от закона, чтобы доказать свою невиновность.",
       "category": "триллер",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 32,
@@ -277,7 +337,9 @@
       "description": "История офицера, отправленного на задание убить полковника, ставшего безумным во время войны во Вьетнаме.",
       "category": "военный",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 33,
@@ -286,7 +348,9 @@
       "description": "Молодая агентка ФБР просит помощи у заключенного серийного убийцы, чтобы поймать другого маньяка.",
       "category": "триллер",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 34,
@@ -295,7 +359,9 @@
       "description": "Комедия о неудачливом краже бриллиантов и запутанной истории вокруг киноиндустрии.",
       "category": "комедия",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 35,
@@ -304,7 +370,9 @@
       "description": "Драматическая комедия о бродячем артисте и богатой слепой девушке, которая его не узнает.",
       "category": "комедия",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 36,
@@ -313,7 +381,9 @@
       "description": "История Моисея, который ведет еврейский народ к освобождению из египетского рабства.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 37,
@@ -322,7 +392,9 @@
       "description": "Мультфильм о зеленом огре Шрэке, который отправляется на спасение принцессы Фионы.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 38,
@@ -331,7 +403,9 @@
       "description": "Финальная часть трилогии о Бэтмене, который сталкивается с террористом Бейном.",
       "category": "боевик",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 39,
@@ -340,7 +414,9 @@
       "description": "Двое парней, узнав о своей неизлечимой болезни, отправляются в путешествие на последнюю свою неделю жизни.",
       "category": "драма",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 40,
@@ -349,7 +425,9 @@
       "description": "Фантастический боевик о девушке, вынужденной сражаться за выживание в жестокой игре.",
       "category": "фантастика",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 41,
@@ -358,7 +436,9 @@
       "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
       "category": "криминал",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 42,
@@ -367,7 +447,9 @@
       "description": "Забавный мультсериал о маленьком желтом существе по имени Лунтик и его друзьях, которые исследуют мир и решают разные задачи.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 43,
@@ -376,7 +458,9 @@
       "description": "Фантастический мультфильм о маленькой девочке по имени Алиса, которая попадает в волшебный мир и встречает удивительных существ.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 44,
@@ -385,7 +469,9 @@
       "description": "Классический мультсериал о вечной схватке кошки Тома и мышки Джерри, которые постоянно попадают в забавные и непредсказуемые ситуации.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 45,
@@ -394,7 +480,9 @@
       "description": "Эпическая анимационная история о молодом льве Симбе, который должен пройти свой путь, чтобы стать королем Саванны.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 46,
@@ -403,7 +491,9 @@
       "description": "Романтический мультфильм о прекрасной девушке Белль, которая встречает загадочное Чудовище и узнает, что красота находится внутри.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 47,
@@ -412,7 +502,9 @@
       "description": "Приключенческая история о юном Викинге Хиккапе, который дружит с драконом Беззубиком и помогает установить мир между людьми и драконами",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 48,
@@ -421,7 +513,9 @@
       "description": "История о девочке, которая открывает тайный сад и вместе с новыми друзьями восстанавливает его к жизни.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 50,
@@ -430,7 +524,9 @@
       "description": "Группа друзей обнаруживает тайну затерянного острова и сталкивается с опасностями в своем стремлении раскрыть его загадку.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 51,
@@ -439,7 +535,9 @@
       "description": "Маленький мальчик обнаруживает волшебное перо, которое превращает все его рисунки в реальность, и начинает увлекательные приключения.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 52,
@@ -448,7 +546,9 @@
       "description": "Группа исследователей попадает в забытый мир, населенный динозаврами, и они должны найти способ вернуться назад.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     },
     {
       "id": 53,
@@ -457,7 +557,9 @@
       "description": "Маленькая рыбка отправляется в увлекательное путешествие по океану, где она встречает новых друзей и познает опасности морского мира.",
       "category": "анимация",
       "price": "330",
-      "trailer": " https://www.youtube.com/embed/"
+      "trailer": " https://www.youtube.com/embed/",
+      "film": "",
+      "raiting": " 4"
     }
   ]
 }
