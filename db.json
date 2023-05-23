@@ -8,8 +8,7 @@
       "category": "драма",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/Ca3mUSDJlgM",
-      "film": "https://p1.oc.kg:8082/video/a/25/The_green_Mile.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/a/25/The_green_Mile.mp4?an=0"
     },
     {
       "id": 2,
@@ -19,8 +18,7 @@
       "category": "драма",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/kgAeKpAPOYk",
-      "film": "https://p1.oc.kg:8082/video/e/39/Pobeg_sts_ort.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/e/39/Pobeg_sts_ort.mp4?an=0"
     },
     {
       "id": 3,
@@ -30,8 +28,7 @@
       "category": "боевик",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/HF1_epZNoCg",
-      "film": "https://p1.oc.kg:8082/video/e/44/Temnoy_ritcar.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/e/44/Temnoy_ritcar.mp4?an=0"
     },
     {
       "id": 4,
@@ -41,8 +38,7 @@
       "category": "научная фантастика",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/qcPfI0y7wRU",
-      "film": "https://p1.oc.kg:8082/video/b/37/Interstellar.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/b/37/Interstellar.mp4?an=0"
     },
     {
       "id": 5,
@@ -52,8 +48,7 @@
       "category": "научная фантастика",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/YihPA42fdQ8",
-      "film": "https://p1.oc.kg:8082/video/d/19/Matrix.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/d/19/Matrix.mp4?an=0"
     },
     {
       "id": 6,
@@ -63,8 +58,7 @@
       "category": "фантастика",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/1iHt3J6eLKk",
-      "film": "https://p1.oc.kg:8082/video/a/24/Starvars_ep4.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/a/24/Starvars_ep4.mp4?an=0"
     },
     {
       "id": 7,
@@ -74,8 +68,7 @@
       "category": "фэнтези",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/r5X-hFf6Bwo",
-      "film": "https://p1.oc.kg:8082/video/d/13/Vlast_kolec_vozvr_korolya.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/d/13/Vlast_kolec_vozvr_korolya.mp4?an=0"
     },
     {
       "id": 8,
@@ -85,8 +78,7 @@
       "category": "комедия",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/ou8w0gQHlRE",
-      "film": "https://p1.oc.kg:8082/video/a/26/Nazad_v_budushee.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/a/26/Nazad_v_budushee.mp4?an=0"
     },
     {
       "id": 9,
@@ -96,8 +88,7 @@
       "category": "криминал",
       "price": "200",
       "trailer": " https://www.youtube.com/embed/vBADUmfa9Q4",
-      "film": "https://p1.oc.kg:8082/video/d/18/Pulp_Fiction_1994.mp4?an=0",
-      "raiting": " 4"
+      "film": "https://p1.oc.kg:8082/video/d/18/Pulp_Fiction_1994.mp4?an=0"
     },
     {
       "id": 10,
@@ -107,8 +98,7 @@
       "category": "триллер",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/hvya_q8KM80",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 11,
@@ -118,8 +108,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/x-0bvW-_2YI?r=0",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 12,
@@ -129,8 +118,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 13,
@@ -140,8 +128,7 @@
       "category": "вестерн",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 14,
@@ -151,8 +138,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 15,
@@ -162,8 +148,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 16,
@@ -173,8 +158,7 @@
       "category": "триллер",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 17,
@@ -184,8 +168,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 18,
@@ -195,8 +178,7 @@
       "category": "боевик",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 19,
@@ -206,8 +188,7 @@
       "category": "вестерн",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 20,
@@ -217,8 +198,7 @@
       "category": "экшн",
       "price": "330",
       "trailer": "https://www.youtube.com/embed/an_MiUmpgs0",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 21,
@@ -228,8 +208,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 22,
@@ -239,8 +218,7 @@
       "category": "военный",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 23,
@@ -250,8 +228,7 @@
       "category": "комедия",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 24,
@@ -261,8 +238,7 @@
       "category": "научная фантастика",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 25,
@@ -272,8 +248,7 @@
       "category": "ужасы",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 26,
@@ -283,8 +258,7 @@
       "category": "приключения",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 27,
@@ -294,8 +268,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 28,
@@ -305,8 +278,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 30,
@@ -316,8 +288,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 31,
@@ -327,8 +298,7 @@
       "category": "триллер",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 32,
@@ -338,8 +308,7 @@
       "category": "военный",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 33,
@@ -349,8 +318,7 @@
       "category": "триллер",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 34,
@@ -360,8 +328,7 @@
       "category": "комедия",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 35,
@@ -371,8 +338,7 @@
       "category": "комедия",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 36,
@@ -382,8 +348,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 37,
@@ -393,8 +358,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 38,
@@ -404,8 +368,7 @@
       "category": "боевик",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 39,
@@ -415,8 +378,7 @@
       "category": "драма",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 40,
@@ -426,8 +388,7 @@
       "category": "фантастика",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 41,
@@ -437,8 +398,7 @@
       "category": "криминал",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 42,
@@ -448,8 +408,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 43,
@@ -459,8 +418,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 44,
@@ -470,8 +428,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 45,
@@ -481,8 +438,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 46,
@@ -492,8 +448,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 47,
@@ -503,8 +458,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 48,
@@ -514,8 +468,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 50,
@@ -525,8 +478,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 51,
@@ -536,8 +488,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 52,
@@ -547,8 +498,7 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
     },
     {
       "id": 53,
@@ -558,8 +508,17 @@
       "category": "анимация",
       "price": "330",
       "trailer": " https://www.youtube.com/embed/",
-      "film": "",
-      "raiting": " 4"
+      "film": ""
+    }
+  ],
+  "accessory": [
+    {
+      "id": 1,
+      "title": "Кулон Дары смерти",
+      "image": "https://ir.ozone.ru/s3/multimedia-c/wc750/6508084824.jpg",
+      "description": "Карнавальный аксессуар",
+      "category": "Кулон",
+      "price": "330"
     }
   ]
 }
