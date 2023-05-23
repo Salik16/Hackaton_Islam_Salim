@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { notify } from "../components/Toastify";
 import { useCart } from "../contexts/CartContextProvider";
 const PayPage = () => {
-  const { deleteFromCart } = useCart();
+  const { allDeleteFromCart } = useCart();
 
   function pay() {
     notify("Спасибо за оформление подписки");
@@ -39,13 +39,13 @@ const PayPage = () => {
       return;
     }
     navigate("/");
-
+    allDeleteFromCart();
     pay();
   }
 
   return (
     <div>
-      <h1>Оформление Подписки</h1>{" "}
+      <h1>Оформление Подписки</h1>
       <Box
         sx={{
           display: "flex",

@@ -11,15 +11,14 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { Link } from "react-router-dom";
 import { Badge } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
 import { useAuth } from "../contexts/AuthContextProvider";
 import { useCart } from "../contexts/CartContextProvider";
-
-import { useProduct } from "../contexts/ProductsContextProvider";
+import { useFav } from "../contexts/FavoriteContextProvider";
 
 const pages = [{ title: "Films", link: "/" }];
 const adminPages = [{ title: "Add Product", link: "/add" }];
@@ -44,10 +43,13 @@ function Navbar() {
   };
   const { user, logout, isAdmin } = useAuth();
   const { cartLength, getCart } = useCart();
-  const { getProduct } = useProduct();
+  const { favLength, getFav } = useFav();
 
   React.useEffect(() => {
     getCart();
+  }, []);
+  React.useEffect(() => {
+    getFav();
   }, []);
 
   return (
@@ -132,27 +134,7 @@ function Navbar() {
                   ))}
             </Menu>
           </Box>
-          <AdbIcon
-            sx={{ color: "black", display: { xs: "flex", md: "none" }, mr: 1 }}
-          />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            LOGO
-          </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
@@ -173,6 +155,11 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
+            <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
+              <Badge badgeContent={favLength} color="default">
+                <FavoriteBorderIcon sx={{ color: "black" }} />
+              </Badge>
+            </IconButton>
             <IconButton component={Link} to="/cart" sx={{ color: "white" }}>
               <Badge badgeContent={cartLength} color="default">
                 <ShoppingCart sx={{ color: "black" }} />

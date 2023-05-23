@@ -79,6 +79,13 @@ const CartContextProvider = ({ children }) => {
     notify("Successfuly removed from cart");
   };
 
+  const allDeleteFromCart = () => {
+    const data = getDataFromLS();
+
+    data.totalPrice = totalSumFunc(data.products);
+    localStorage.clear("cart", JSON.stringify(data));
+    getCart();
+  };
   const isAlreadyInCart = (id) => {
     const data = getDataFromLS();
 
@@ -111,6 +118,7 @@ const CartContextProvider = ({ children }) => {
     changeProductCount,
     deleteFromCart,
     isAlreadyInCart,
+    allDeleteFromCart,
   };
 
   return <cartContext.Provider value={values}>{children}</cartContext.Provider>;

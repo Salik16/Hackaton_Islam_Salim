@@ -18,6 +18,7 @@ const AddProductPage = () => {
     price: "",
     category: "",
     image: "",
+    trailer: "",
   });
 
   const handleChange = (e) => {
@@ -35,7 +36,8 @@ const AddProductPage = () => {
       !formValue.description.trim() ||
       !formValue.price.trim() ||
       !formValue.image.trim() ||
-      !formValue.category.trim()
+      !formValue.category.trim() ||
+      !formValue.trailer.trim()
     ) {
       alert("fill the fields");
       return;
@@ -76,6 +78,13 @@ const AddProductPage = () => {
           onChange={(e) => handleChange(e)}
           name="price"
           label="Price"
+          variant="outlined"
+        />
+        <TextField
+          value={formValue.trailer}
+          onChange={(e) => handleChange(e)}
+          name="trailer"
+          label="Trailer"
           variant="outlined"
         />
         <TextField

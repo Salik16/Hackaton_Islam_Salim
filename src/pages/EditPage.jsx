@@ -22,6 +22,7 @@ const EditPage = () => {
     price: "",
     category: "",
     image: "",
+    trailer: "",
   });
 
   useEffect(() => {
@@ -48,7 +49,8 @@ const EditPage = () => {
       !formValue.title.trim() ||
       !formValue.description.trim() ||
       !formValue.price.trim() ||
-      !formValue.image.trim()
+      !formValue.image.trim() ||
+      !formValue.trailer.trim()
     ) {
       alert("fill the fields");
       return;
@@ -83,6 +85,13 @@ const EditPage = () => {
           onChange={(e) => handleChange(e)}
           name="description"
           label="Description"
+          variant="outlined"
+        />
+        <TextField
+          value={formValue.trailer}
+          onChange={(e) => handleChange(e)}
+          name="trailer"
+          label="Trailer"
           variant="outlined"
         />
         <TextField
