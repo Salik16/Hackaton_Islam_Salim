@@ -7,6 +7,7 @@ export const ACTIONS = {
   user: "user",
   cart: "cart",
   cartLength: "cartLength",
+  favLenght: "favLenght",
 };
 export const API = "http://localhost:8001/products";
 

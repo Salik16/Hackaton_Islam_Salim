@@ -69,7 +69,7 @@ export default function ProductCard({ item }) {
         <CardActions>
           <Button
             size="small"
-            sx={{ color: "black" }}
+            sx={{ color: " rgb(214, 214, 214)" }}
             component={Link}
             to={`/details/${item.id}`}
           >
@@ -77,7 +77,11 @@ export default function ProductCard({ item }) {
           </Button>
           <IconButton
             onClick={() => addProductToCart(item)}
-            sx={{ color: `${isAlreadyInCart(item.id) ? "red" : "black"}` }}
+            sx={{
+              color: `${
+                isAlreadyInCart(item.id) ? "yellow " : "rgb(214, 214, 214)"
+              }`,
+            }}
           >
             Add To Cart
             <AddShoppingCart />
