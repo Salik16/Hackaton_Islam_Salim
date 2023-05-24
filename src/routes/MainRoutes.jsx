@@ -26,7 +26,7 @@ const MainRoutes = () => {
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/details/:id" element={<DetailsPage />} />
 
-        <Route path="/acessdetails/:id" element={<AccessDetailsPage />} />
+        <Route path="/accessdetailspage/:id" element={<AccessDetailsPage />} />
         <Route path="/edit/:id" element={<EditPage />} />
         <Route path="/add" element={<AddProductPage />} />
         <Route path="/addAcessory" element={<AddAccessoryPage />} />
