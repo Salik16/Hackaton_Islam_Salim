@@ -15,7 +15,6 @@ import PremiumPage from "../pages/PremiumPage";
 import AccessoryList from "../components/AccesoryList";
 import AddAccessoryPage from "../pages/AddAccessoryPage";
 import AccessDetailsPage from "../pages/AccessDetailsPage";
-import AccessDetailsPage from "../pages/AccessDetailsPage";
 
 const MainRoutes = () => {
   const { user } = useAuth;
