@@ -49,7 +49,7 @@ export default function AccessoryCard({ item }) {
             size="small"
             sx={{ color: " rgb(214, 214, 214)" }}
             component={Link}
-            to={`/details/${item.id}`}
+            to={`/acessdetails/${item.id}`}
           >
             Details
           </Button>
