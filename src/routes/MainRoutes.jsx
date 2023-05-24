@@ -15,6 +15,7 @@ import PremiumPage from "../pages/PremiumPage";
 import AccessoryList from "../components/AccesoryList";
 import AddAccessoryPage from "../pages/AddAccessoryPage";
 import AccessDetailsPage from "../pages/AccessDetailsPage";
+import AccessEditPage from "../pages/AccessEditPage";
 
 const MainRoutes = () => {
   const { user } = useAuth;
@@ -27,6 +28,7 @@ const MainRoutes = () => {
         <Route path="/details/:id" element={<DetailsPage />} />
         <Route path="/acessdetails/:id" element={<AccessDetailsPage />} />
         <Route path="/edit/:id" element={<EditPage />} />
+        <Route path="/aceessEdit/:id" element={<AccessEditPage />} />
         <Route path="/add" element={<AddProductPage />} />
         <Route path="/addAcessory" element={<AddAccessoryPage />} />
         <Route path="/pay" element={<PayPage />} />

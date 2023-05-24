@@ -9,10 +9,11 @@ import {
 import React, { useEffect, useState } from "react";
 
 import { useNavigate, useParams } from "react-router-dom";
-import { useProduct } from "../contexts/ProductsContextProvider";
 
-const EditPage = () => {
-  const { oneProduct, getOneProduct, editProduct } = useProduct();
+import { useAccessory } from "../contexts/AccessoryContextProvider";
+
+const AccessEditPage = () => {
+  const { oneProduct, getOneProduct, editProduct } = useAccessory();
   const params = useParams();
   const navigate = useNavigate();
 
@@ -57,7 +58,7 @@ const EditPage = () => {
     }
 
     editProduct(formValue, params.id);
-    navigate("/");
+    navigate("/accessory");
   };
 
   return (
@@ -118,17 +119,9 @@ const EditPage = () => {
             value={formValue.category}
             onChange={(e) => handleChange(e)}
           >
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"кулоны"}>Кулоны</MenuItem>
+            <MenuItem value={"одежда"}>Одежда</MenuItem>
+            <MenuItem value={"books"}>Книги</MenuItem>
           </Select>
         </FormControl>
         <Button type="submit">Send Product</Button>
@@ -137,4 +130,4 @@ const EditPage = () => {
   );
 };
 
-export default EditPage;
+export default AccessEditPage;

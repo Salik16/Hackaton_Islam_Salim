@@ -109,17 +109,9 @@ const AccessoryList = () => {
             sx={{ color: "black" }}
           >
             <MenuItem value={"all"}>Все</MenuItem>
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"кулоны"}>Кулоны</MenuItem>
+            <MenuItem value={"одежда"}>Одежда</MenuItem>
+            <MenuItem value={"books"}>Книги</MenuItem>
           </Select>
         </FormControl>
       </Box>
