@@ -67,12 +67,6 @@ export default function ProductCard({ item }) {
           >
             Delete
           </Button>
-          <IconButton
-            onClick={() => addProductToCart(item)}
-            sx={{ color: `${isAlreadyInCart(item.id) ? "red" : "black"}` }}
-          >
-            <AddShoppingCart />
-          </IconButton>
         </CardActions>
       ) : (
         <CardActions>
@@ -84,18 +78,7 @@ export default function ProductCard({ item }) {
           >
             Details
           </Button>
-          <IconButton
-            onClick={() => addProductToCart(item)}
-            sx={{
-              color: `${
-                isAlreadyInCart(item.id) ? "red" : "rgb(214, 214, 214)"
-              }`,
-              fontSize: "15px",
-            }}
-          >
-            {`${isAlreadyInCart(item.id) ? "Remove From Cart" : "Add To Cart"}`}
-            <AddShoppingCart />
-          </IconButton>
+
           <IconButton
             onClick={() => addToFavorite(item)}
             sx={{

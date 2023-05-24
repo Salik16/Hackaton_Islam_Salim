@@ -44,6 +44,7 @@ function Navbar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
   const { user, logout, isAdmin } = useAuth();
   const { cartLength, getCart } = useCart();
   const { favLength, getFav } = useFav();
@@ -160,14 +161,12 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            {!data.subscr ? (
-              <NavLink
-                style={{ color: "black", textDecoration: "none" }}
-                to={"/premium"}
-              >
-                Get a Premium Subscription
-              </NavLink>
-            ) : null}
+            <NavLink
+              style={{ color: "black", textDecoration: "none" }}
+              to={"/premium"}
+            >
+              Get a Premium Subscription
+            </NavLink>
 
             <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
               <Badge badgeContent={favLength} color="default">
@@ -212,18 +211,32 @@ function Navbar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              <MenuItem onClick={logout}>
+              <MenuItem
+                onClick={() => {
+                  logout();
+                }}
+              >
                 <Typography textalign="center">Log Out</Typography>
               </MenuItem>
               {isAdmin() ? (
-                <Button
-                  sx={{ color: "black" }}
-                  component={Link}
-                  to="/add"
-                  textalign="center"
-                >
-                  Add Product
-                </Button>
+                <Box>
+                  <Button
+                    sx={{ color: "black", display: "block" }}
+                    component={Link}
+                    to="/add"
+                    textalign="center"
+                  >
+                    Add Product
+                  </Button>
+                  <Button
+                    sx={{ color: "black" }}
+                    component={Link}
+                    to="/addAcessory"
+                    textalign="center"
+                  >
+                    Add Accessory
+                  </Button>
+                </Box>
               ) : null}
             </Menu>
           </Box>

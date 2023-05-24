@@ -69,6 +69,7 @@ const AuthContextProvider = ({ children }) => {
   async function logout() {
     try {
       await signOut(auth);
+      localStorage.removeItem("users");
     } catch (error) {
       console.log(error);
     }

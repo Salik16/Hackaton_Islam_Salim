@@ -48,7 +48,7 @@ const AccessoryContextProvider = ({ children }) => {
 
   const addProduct = async (newProduct) => {
     try {
-      await axios.post(API, newProduct);
+      await axios.post(API2, newProduct);
     } catch (error) {
       console.log(error);
     }

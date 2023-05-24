@@ -13,6 +13,7 @@ import PayPage from "../pages/PayPage";
 import FavPage from "../pages/FavPage";
 import PremiumPage from "../pages/PremiumPage";
 import AccessoryList from "../components/AccesoryList";
+import AddAccessoryPage from "../pages/AddAccessoryPage";
 
 const MainRoutes = () => {
   const { user } = useAuth;
@@ -25,6 +26,7 @@ const MainRoutes = () => {
         <Route path="/details/:id" element={<DetailsPage />} />
         <Route path="/edit/:id" element={<EditPage />} />
         <Route path="/add" element={<AddProductPage />} />
+        <Route path="/addAcessory" element={<AddAccessoryPage />} />
         <Route path="/pay" element={<PayPage />} />
         <Route path="/fav" element={<FavPage />} />
         <Route path="/premium" element={<PremiumPage />} />

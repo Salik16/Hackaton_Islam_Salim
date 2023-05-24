@@ -43,9 +43,7 @@ const DetailsPage = () => {
               </Typography>
               <Typography variant="h5">${oneProduct.price}</Typography>
             </CardContent>
-            {data.subscr ? (
-              <video src={oneProduct.film} controls width={600}></video>
-            ) : (
+            {!data || !data.subscr ? (
               <iframe
                 width="700"
                 height="400"
@@ -54,6 +52,8 @@ const DetailsPage = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
+            ) : (
+              <video src={oneProduct.film} controls width={600}></video>
             )}
 
             <CardActions sx={{ display: "block" }}>
