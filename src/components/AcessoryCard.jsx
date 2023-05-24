@@ -57,7 +57,7 @@ export default function AccessoryCard({ item }) {
             size="small"
             sx={{ color: " rgb(214, 214, 214)" }}
             component={Link}
-            to={`/edit/${item.id}`}
+            to={`/aceessEdit/${item.id}`}
           >
             Edit
           </Button>
