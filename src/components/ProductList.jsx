@@ -76,7 +76,6 @@ const ProductList = () => {
 
   return (
     <div>
-      {" "}
       <Box
         sx={{
           maxWidth: 300,
@@ -84,6 +83,8 @@ const ProductList = () => {
           display: "flex",
           gap: "30px",
           color: "white",
+          position: "relative",
+          left: "35%",
         }}
       >
         <TextField
@@ -91,6 +92,8 @@ const ProductList = () => {
           variant="outlined"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          color="primary"
+          sx={{ color: "yellow" }}
         />
 
         <FormControl fullWidth>

@@ -5,12 +5,14 @@ import { Box, Button, TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { notify } from "../components/Toastify";
 import { useCart } from "../contexts/CartContextProvider";
+import { useAuth } from "../contexts/AuthContextProvider";
 const PayPage = () => {
-  const { deleteFromCart } = useCart();
+  const { allDeleteFromCart } = useCart();
 
   function pay() {
     notify("Спасибо за оформление подписки");
   }
+  const { isUser } = useAuth();
 
   const navigate = useNavigate();
   const [formValue, setFormValue] = useState({
@@ -39,13 +41,14 @@ const PayPage = () => {
       return;
     }
     navigate("/");
-
+    allDeleteFromCart();
+    isUser();
     pay();
   }
 
   return (
     <div>
-      <h1>Оформление Подписки</h1>{" "}
+      <h1>Оформление Подписки</h1>
       <Box
         sx={{
           display: "flex",

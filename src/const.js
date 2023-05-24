@@ -1,4 +1,4 @@
-export const LIMIT = 9;
+export const LIMIT = 12;
 
 export const ACTIONS = {
   products: "products",
@@ -7,11 +7,13 @@ export const ACTIONS = {
   user: "user",
   cart: "cart",
   cartLength: "cartLength",
-  favLenght: "favLenght",
+
+  favorite: "favorite",
+  favLength: "favLength",
 };
 export const API = "http://localhost:8001/products";
 
-export const ADMINS = ["admin@admin.com"];
+export const ADMINS = ["admin@admin.com", "adminspage"];
 export function totalSumFunc(products) {
   let data = products.reduce((acc, item) => acc + item.subPrice, 0);
   return data;
@@ -19,4 +21,7 @@ export function totalSumFunc(products) {
 
 export function calcSubPrice(product) {
   return +product.count * product.price;
+}
+export function calcSubFav(product) {
+  return +product.count;
 }

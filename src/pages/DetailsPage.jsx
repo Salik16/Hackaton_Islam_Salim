@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { useProduct } from "../contexts/ProductsContextProvider";
+import { useAuth } from "../contexts/AuthContextProvider";
 
 const DetailsPage = () => {
   const { oneProduct, getOneProduct } = useProduct();
@@ -19,8 +20,10 @@ const DetailsPage = () => {
     getOneProduct(params.id);
   }, []);
 
+  const { isUser } = useAuth();
+
   return (
-    <div className="detsils">
+    <div>
       {oneProduct ? (
         <Card sx={{ display: "flex" }}>
           <CardMedia
@@ -29,7 +32,7 @@ const DetailsPage = () => {
             image={oneProduct.image}
             title={oneProduct.image}
           />
-          <Box bgcolor={" rgb(214, 214, 214)"}>
+          <Box bgcolor={" #1976d2"}>
             <CardContent>
               <Typography gutterBottom variant="h3" component="div">
                 {oneProduct.title}
@@ -39,13 +42,33 @@ const DetailsPage = () => {
               </Typography>
               <Typography variant="h5">${oneProduct.price}</Typography>
             </CardContent>
+            {!isUser() ? (
+              <iframe
+                width="700"
+                height="400"
+                src={oneProduct.trailer}
+                title={oneProduct.title}
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            ) : (
+              <video
+                src="https://p1.oc.kg:8082/video/c/hd/KungFUpanda3_720.mp4?an=1"
+                // autoPlay
+                controls
+                width={800}
+                height={800}
+              ></video>
+            )}
+
             <CardActions>
               <Button
                 component={Link}
                 to="/"
                 size="small"
                 sx={{
-                  bgcolor: "#1976d2",
+                  bgcolor: "rgb(214, 214, 214)",
                   color: "black",
                 }}
               >

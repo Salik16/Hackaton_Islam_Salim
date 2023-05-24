@@ -10,6 +10,7 @@ import DetailsPage from "../pages/DetailsPage";
 import { useAuth } from "../contexts/AuthContextProvider";
 import AddProductPage from "../pages/AddProductPage";
 import PayPage from "../pages/PayPage";
+import FavPage from "../pages/FavPage";
 
 const MainRoutes = () => {
   const { user } = useAuth;
@@ -23,6 +24,7 @@ const MainRoutes = () => {
         <Route path="/edit/:id" element={<EditPage />} />
         <Route path="/add" element={<AddProductPage />} />
         <Route path="/pay" element={<PayPage />} />
+        <Route path="/fav" element={<FavPage />} />
       </Route>
     </Routes>
   );

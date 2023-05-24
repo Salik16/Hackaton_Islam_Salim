@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export function notify(msg) {
   return toast.success(msg, {
-    position: "top-center",
+    position: "top-left",
     autoClose: 2000,
     hideProgressBar: false,
     closeOnClick: true,

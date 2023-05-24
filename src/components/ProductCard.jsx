@@ -8,17 +8,21 @@ import Typography from "@mui/material/Typography";
 import { useProduct } from "../contexts/ProductsContextProvider";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 import { AddShoppingCart } from "@mui/icons-material";
 import { useCart } from "../contexts/CartContextProvider";
 import { useAuth } from "../contexts/AuthContextProvider";
+import { useFav } from "../contexts/FavoriteContextProvider";
 
 export default function ProductCard({ item }) {
   const { deleteProduct } = useProduct();
-  const { addProductToCart, isAlreadyInCart, deleteFromCart } = useCart();
+  const { addProductToCart, isAlreadyInCart } = useCart();
   const { isAdmin } = useAuth();
 
+  const { isAlreadyInFav, addToFavorite } = useFav();
+
   return (
-    <Card sx={{ maxWidth: 350, bgcolor: "#1976d2" }}>
+    <Card sx={{ maxWidth: 350, maxHeight: 600, bgcolor: "#1976d2" }}>
       <CardMedia sx={{ height: 400 }} image={item.image} title={item.title} />
       <CardContent>
         <Typography
@@ -30,7 +34,7 @@ export default function ProductCard({ item }) {
           {item.title}
         </Typography>
         <Typography variant="body2" color={" rgb(214, 214, 214)"}>
-          {item.price}
+          ${item.price}
         </Typography>
       </CardContent>
       {isAdmin() ? (
@@ -79,12 +83,23 @@ export default function ProductCard({ item }) {
             onClick={() => addProductToCart(item)}
             sx={{
               color: `${
-                isAlreadyInCart(item.id) ? "yellow " : "rgb(214, 214, 214)"
+                isAlreadyInCart(item.id) ? "red" : "rgb(214, 214, 214)"
+              }`,
+              fontSize: "15px",
+            }}
+          >
+            {`${isAlreadyInCart(item.id) ? "Remove From Cart" : "Add To Cart"}`}
+            <AddShoppingCart />
+          </IconButton>
+          <IconButton
+            onClick={() => addToFavorite(item)}
+            sx={{
+              color: `${
+                isAlreadyInFav(item.id) ? "red" : " rgb(214, 214, 214)"
               }`,
             }}
           >
-            Add To
-            <AddShoppingCart />
+            <FavoriteIcon />
           </IconButton>
         </CardActions>
       )}
