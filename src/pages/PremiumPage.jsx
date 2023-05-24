@@ -1,20 +1,10 @@
-import React, { useEffect, useState } from "react";
-
-import {
-  Alert,
-  AlertTitle,
-  Box,
-  Button,
-  TextField,
-  Typography,
-} from "@mui/material";
-
+import { Box, Button, TextField, Typography } from "@mui/material";
+import React, { useReducer, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { notify } from "../components/Toastify";
-import { useCart } from "../contexts/CartContextProvider";
+import { ACTIONS } from "../const";
 
-const PayPage = () => {
-  const { allDeleteFromCart } = useCart();
+const PremiumPage = () => {
   const navigate = useNavigate();
   const [formValue, setFormValue] = useState({
     cardnumber: "",
@@ -24,6 +14,9 @@ const PayPage = () => {
   });
 
   function pay() {
+    let data = JSON.parse(localStorage.getItem("users"));
+    data.subscr = true;
+    localStorage.setItem("users", JSON.stringify(data));
     notify("Спасибо за покупку");
   }
 
@@ -45,15 +38,14 @@ const PayPage = () => {
       alert("fill the fields");
       return;
     }
-    navigate("/accessory");
-    allDeleteFromCart();
-    isUser();
+    navigate("/");
     pay();
   }
 
   return (
     <div>
-      <Typography variant="h3">Покупка Акссесуаров</Typography>
+      <Typography variant="h3">Оформление Подписки</Typography>
+
       <Box
         sx={{
           display: "flex",
@@ -74,7 +66,7 @@ const PayPage = () => {
             required
             fullWidth
             id="number"
-            label="CardNumber "
+            label="CardNumber"
             name="cardnumber"
             autoFocus
           />
@@ -120,4 +112,4 @@ const PayPage = () => {
   );
 };
 
-export default PayPage;
+export default PremiumPage;

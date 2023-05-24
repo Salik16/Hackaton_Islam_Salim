@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import {
   Box,
@@ -7,6 +7,7 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  Rating,
   Typography,
 } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
@@ -15,20 +16,21 @@ import { useAuth } from "../contexts/AuthContextProvider";
 
 const DetailsPage = () => {
   const { oneProduct, getOneProduct } = useProduct();
+
+  const [value, setValue] = useState(4);
   const params = useParams();
   useEffect(() => {
     getOneProduct(params.id);
   }, []);
 
-  const { isUser } = useAuth();
-
+  let data = JSON.parse(localStorage.getItem("users"));
   return (
     <div>
       {oneProduct ? (
         <Card sx={{ display: "flex" }}>
           <CardMedia
             component="img"
-            sx={{ width: 300 }}
+            sx={{ width: 350 }}
             image={oneProduct.image}
             title={oneProduct.image}
           />
@@ -42,27 +44,30 @@ const DetailsPage = () => {
               </Typography>
               <Typography variant="h5">${oneProduct.price}</Typography>
             </CardContent>
-            {!isUser() ? (
+            {!data || !data.subscr ? (
               <iframe
                 width="700"
                 height="400"
                 src={oneProduct.trailer}
                 title={oneProduct.title}
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
             ) : (
-              <video
-                src="https://p1.oc.kg:8082/video/c/hd/KungFUpanda3_720.mp4?an=1"
-                // autoPlay
-                controls
-                width={800}
-                height={800}
-              ></video>
+              <video src={oneProduct.film} controls width={600}></video>
             )}
 
-            <CardActions>
+            <CardActions sx={{ display: "block" }}>
+              <Box>
+                <Typography>Raiting</Typography>
+                <Rating
+                  name="simple-controlled"
+                  value={value}
+                  onChange={(event, newValue) => {
+                    setValue(newValue);
+                  }}
+                />
+              </Box>
               <Button
                 component={Link}
                 to="/"

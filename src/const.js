@@ -10,8 +10,10 @@ export const ACTIONS = {
 
   favorite: "favorite",
   favLength: "favLength",
+  accessory: "accessory",
 };
-export const API = "http://localhost:8001/products";
+export const API = "http://localhost:8000/products";
+export const API2 = "http://localhost:8000/accessory";
 
 export const ADMINS = ["admin@admin.com", "adminspage"];
 export function totalSumFunc(products) {

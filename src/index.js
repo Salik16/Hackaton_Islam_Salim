@@ -8,6 +8,7 @@ import ProductsContextProvider from "./contexts/ProductsContextProvider";
 import CartContextProvider from "./contexts/CartContextProvider";
 import AuthContextProvider from "./contexts/AuthContextProvider";
 import FavoriteContextProvider from "./contexts/FavoriteContextProvider";
+import AccessoryContextProvider from "./contexts/AccessoryContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,12 +16,13 @@ root.render(
     <BrowserRouter>
       <CartContextProvider>
         <FavoriteContextProvider>
-          {" "}
           <AuthContextProvider>
-            <ProductsContextProvider>
-              <Toastify />
-              <App />
-            </ProductsContextProvider>
+            <AccessoryContextProvider>
+              <ProductsContextProvider>
+                <Toastify />
+                <App />
+              </ProductsContextProvider>
+            </AccessoryContextProvider>
           </AuthContextProvider>
         </FavoriteContextProvider>
       </CartContextProvider>

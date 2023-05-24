@@ -7,10 +7,11 @@ import {
   MenuItem,
   Select,
 } from "@mui/material";
-import { useProduct } from "../contexts/ProductsContextProvider";
 
-const AddProductPage = () => {
-  const { addProduct } = useProduct();
+import { useAccessory } from "../contexts/AccessoryContextProvider";
+
+const AddAccessoryPage = () => {
+  const { addProduct } = useAccessory();
 
   const [formValue, setFormValue] = useState({
     title: "",
@@ -18,7 +19,6 @@ const AddProductPage = () => {
     price: "",
     category: "",
     image: "",
-    trailer: "",
   });
 
   const handleChange = (e) => {
@@ -36,8 +36,7 @@ const AddProductPage = () => {
       !formValue.description.trim() ||
       !formValue.price.trim() ||
       !formValue.image.trim() ||
-      !formValue.category.trim() ||
-      !formValue.trailer.trim()
+      !formValue.category.trim()
     ) {
       alert("fill the fields");
       return;
@@ -48,7 +47,7 @@ const AddProductPage = () => {
 
   return (
     <div>
-      <h1 style={{ textalign: "center" }}>Add Product</h1>
+      <h1 style={{ textalign: "center" }}>Add Accessory</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
         style={{
@@ -80,13 +79,7 @@ const AddProductPage = () => {
           label="Price"
           variant="outlined"
         />
-        <TextField
-          value={formValue.trailer}
-          onChange={(e) => handleChange(e)}
-          name="trailer"
-          label="Trailer"
-          variant="outlined"
-        />
+
         <TextField
           value={formValue.image}
           onChange={(e) => handleChange(e)}
@@ -104,17 +97,9 @@ const AddProductPage = () => {
             value={formValue.category}
             onChange={(e) => handleChange(e)}
           >
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"кулоны"}>Кулоны</MenuItem>
+            <MenuItem value={"одежда"}>Одежда</MenuItem>
+            <MenuItem value={"books"}>Книги</MenuItem>
           </Select>
         </FormControl>
         <Button type="submit">Send Product</Button>
@@ -123,4 +108,4 @@ const AddProductPage = () => {
   );
 };
 
-export default AddProductPage;
+export default AddAccessoryPage;
