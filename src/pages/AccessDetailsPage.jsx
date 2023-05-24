@@ -23,7 +23,7 @@ const AccessDetailsPage = () => {
     getOneProduct(params.id);
   }, []);
 
- return (
+  return (
     <div>
       {oneProduct ? (
         <Card sx={{ display: "flex" }}>
@@ -57,7 +57,7 @@ const AccessDetailsPage = () => {
               </Box>
               <Button
                 component={Link}
-                to="/"
+                to="/accessory"
                 size="small"
                 sx={{
                   bgcolor: "rgb(214, 214, 214)",
