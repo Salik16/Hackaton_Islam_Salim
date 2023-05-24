@@ -47,7 +47,6 @@ const PayPage = () => {
     }
     navigate("/accessory");
     allDeleteFromCart();
-    isUser();
     pay();
   }
 
