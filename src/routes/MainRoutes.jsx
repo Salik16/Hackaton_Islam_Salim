@@ -26,11 +26,11 @@ const MainRoutes = () => {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/details/:id" element={<DetailsPage />} />
-        <Route path="/acessdetails/:id" element={<AccessDetailsPage />} />
+        <Route path="/comicsdetails/:id" element={<AccessDetailsPage />} />
         <Route path="/edit/:id" element={<EditPage />} />
-        <Route path="/aceessEdit/:id" element={<AccessEditPage />} />
+        <Route path="/comicsEdit/:id" element={<AccessEditPage />} />
         <Route path="/add" element={<AddProductPage />} />
-        <Route path="/addAcessory" element={<AddAccessoryPage />} />
+        <Route path="/addcomics" element={<AddAccessoryPage />} />
         <Route path="/pay" element={<PayPage />} />
         <Route path="/fav" element={<FavPage />} />
         <Route path="/premium" element={<PremiumPage />} />

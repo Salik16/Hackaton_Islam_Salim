@@ -62,7 +62,7 @@ const AccessDetailsPage = () => {
                       size="small"
                       sx={{ color: " black" }}
                       component={Link}
-                      to={`/aceessEdit/${oneProduct.id}`}
+                      to={`/comicsEdit/${oneProduct.id}`}
                     >
                       Edit
                     </Button>
@@ -107,7 +107,7 @@ const AccessDetailsPage = () => {
               </Box>
               <Button
                 component={Link}
-                to="/accessory"
+                to="/comics"
                 size="small"
                 sx={{
                   bgcolor: "rgb(214, 214, 214)",

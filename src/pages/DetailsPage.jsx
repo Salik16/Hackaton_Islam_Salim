@@ -45,7 +45,7 @@ const DetailsPage = () => {
                 component="img"
                 image={oneProduct.image}
                 title={oneProduct.image}
-                sx={{ marginTop: "20px", height: 500 }}
+                sx={{ marginTop: "20px", height: 500, width: 300 }}
               />
               <Box>
                 <CardContent>
@@ -92,22 +92,11 @@ const DetailsPage = () => {
                 </CardActions>
               ) : (
                 <CardActions>
-                  <Button
-                    size="small"
-                    sx={{ color: "black" }}
-                    component={Link}
-                    to={`/details/${oneProduct.id}`}
-                  >
-                    Details
-                  </Button>
-
                   <IconButton
                     onClick={() => addToFavorite(oneProduct)}
                     sx={{
                       color: `${
-                        isAlreadyInFav(oneProduct.id)
-                          ? "red"
-                          : " rgb(214, 214, 214)"
+                        isAlreadyInFav(oneProduct.id) ? "red" : "black"
                       }`,
                     }}
                   >

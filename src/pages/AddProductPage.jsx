@@ -15,7 +15,7 @@ const AddProductPage = () => {
   const [formValue, setFormValue] = useState({
     title: "",
     description: "",
-    price: "",
+
     category: "",
     image: "",
     trailer: "",
@@ -34,7 +34,6 @@ const AddProductPage = () => {
     if (
       !formValue.title.trim() ||
       !formValue.description.trim() ||
-      !formValue.price.trim() ||
       !formValue.image.trim() ||
       !formValue.category.trim() ||
       !formValue.trailer.trim()
@@ -47,7 +46,7 @@ const AddProductPage = () => {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <h1 style={{ textalign: "center" }}>Add Product</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
@@ -73,13 +72,7 @@ const AddProductPage = () => {
           label="Description"
           variant="outlined"
         />
-        <TextField
-          value={formValue.price}
-          onChange={(e) => handleChange(e)}
-          name="price"
-          label="Price"
-          variant="outlined"
-        />
+
         <TextField
           value={formValue.trailer}
           onChange={(e) => handleChange(e)}
@@ -104,17 +97,9 @@ const AddProductPage = () => {
             value={formValue.category}
             onChange={(e) => handleChange(e)}
           >
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"Action"}>Action</MenuItem>
+            <MenuItem value={"Fantasy"}>Fantasy</MenuItem>
+            <MenuItem value={"Sci-Fi"}>Sci-Fi</MenuItem>
           </Select>
         </FormControl>
         <Button type="submit">Send Product</Button>

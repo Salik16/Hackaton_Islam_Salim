@@ -17,7 +17,7 @@ const AddAccessoryPage = () => {
     title: "",
     description: "",
     price: "",
-    category: "",
+
     image: "",
   });
 
@@ -35,8 +35,7 @@ const AddAccessoryPage = () => {
       !formValue.title.trim() ||
       !formValue.description.trim() ||
       !formValue.price.trim() ||
-      !formValue.image.trim() ||
-      !formValue.category.trim()
+      !formValue.image.trim()
     ) {
       alert("fill the fields");
       return;
@@ -46,7 +45,7 @@ const AddAccessoryPage = () => {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <h1 style={{ textalign: "center" }}>Add Accessory</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
@@ -87,21 +86,7 @@ const AddAccessoryPage = () => {
           label="Image"
           variant="outlined"
         />
-        <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Category</InputLabel>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            label="Category"
-            name="category"
-            value={formValue.category}
-            onChange={(e) => handleChange(e)}
-          >
-            <MenuItem value={"кулоны"}>Кулоны</MenuItem>
-            <MenuItem value={"одежда"}>Одежда</MenuItem>
-            <MenuItem value={"books"}>Книги</MenuItem>
-          </Select>
-        </FormControl>
+
         <Button type="submit">Send Product</Button>
       </form>
     </div>

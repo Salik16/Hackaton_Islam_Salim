@@ -174,7 +174,7 @@ function Navbar() {
               </Badge>
             </IconButton>
             <IconButton component={Link} to="/cart" sx={{ color: "white" }}>
-              <Badge badgeContent={cartLength} color="default">
+              <Badge badgeContent={cartLength} color="primary">
                 <ShoppingCart sx={{ color: "black" }} />
               </Badge>
             </IconButton>
@@ -225,10 +225,10 @@ function Navbar() {
                   <Button
                     sx={{ color: "black" }}
                     component={Link}
-                    to="/addAcessory"
+                    to="/addcomics"
                     textalign="center"
                   >
-                    Add Accessory
+                    Add Comics
                   </Button>
                 </Box>
               ) : null}

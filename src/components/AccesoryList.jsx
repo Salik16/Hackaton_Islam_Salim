@@ -107,12 +107,7 @@ const AccessoryList = () => {
             label="Age"
             onChange={(e) => setCategory(e.target.value)}
             sx={{ color: "black" }}
-          >
-            <MenuItem value={"all"}>Все</MenuItem>
-            <MenuItem value={"кулоны"}>Кулоны</MenuItem>
-            <MenuItem value={"одежда"}>Одежда</MenuItem>
-            <MenuItem value={"books"}>Книги</MenuItem>
-          </Select>
+          ></Select>
         </FormControl>
       </Box>
       <Grid container spacing={2}>
