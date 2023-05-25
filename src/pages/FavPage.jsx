@@ -26,7 +26,7 @@ const FavPage = () => {
   return (
     <Grid container spacing={2}>
       {favorites.map((item) => (
-        <Grid item key={item.id} md={4} sm={6}>
+        <Grid item key={item.id} md={4} sm={6} xs={8}>
           {" "}
           <Card sx={{ maxWidth: 350, bgcolor: "#1976d2" }}>
             <CardMedia
