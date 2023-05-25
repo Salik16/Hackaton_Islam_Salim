@@ -159,7 +159,7 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            {!data || !data.subscr ? (
+            {data && !data.subscr ? (
               <NavLink
                 style={{ color: "black", textDecoration: "none" }}
                 to={"/premium"}
