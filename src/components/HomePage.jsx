@@ -4,7 +4,7 @@ import ProductList from "./ProductList";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="homePage">
       <ProductList />
     </div>
   );

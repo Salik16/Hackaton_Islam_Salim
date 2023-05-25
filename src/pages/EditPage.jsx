@@ -19,7 +19,7 @@ const EditPage = () => {
   const [formValue, setFormValue] = useState({
     title: "",
     description: "",
-    price: "",
+
     category: "",
     image: "",
     trailer: "",
@@ -48,7 +48,6 @@ const EditPage = () => {
     if (
       !formValue.title.trim() ||
       !formValue.description.trim() ||
-      !formValue.price.trim() ||
       !formValue.image.trim() ||
       !formValue.trailer.trim()
     ) {
@@ -62,7 +61,7 @@ const EditPage = () => {
 
   return (
     <div>
-      <h1 style={{ textalign: "center" }}>Add Product</h1>
+      <h1 style={{ textalign: "center" }}>Edit Product</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
         style={{
@@ -94,13 +93,7 @@ const EditPage = () => {
           label="Trailer"
           variant="outlined"
         />
-        <TextField
-          value={formValue.price}
-          onChange={(e) => handleChange(e)}
-          name="price"
-          label="Price"
-          variant="outlined"
-        />
+
         <TextField
           value={formValue.image}
           onChange={(e) => handleChange(e)}

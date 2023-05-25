@@ -23,7 +23,6 @@ const AccessEditPage = () => {
     price: "",
     category: "",
     image: "",
-    trailer: "",
   });
 
   useEffect(() => {
@@ -51,7 +50,7 @@ const AccessEditPage = () => {
       !formValue.description.trim() ||
       !formValue.price.trim() ||
       !formValue.image.trim() ||
-      !formValue.trailer.trim()
+      !formValue.category.trim()
     ) {
       alert("fill the fields");
       return;
@@ -88,13 +87,7 @@ const AccessEditPage = () => {
           label="Description"
           variant="outlined"
         />
-        <TextField
-          value={formValue.trailer}
-          onChange={(e) => handleChange(e)}
-          name="trailer"
-          label="Trailer"
-          variant="outlined"
-        />
+
         <TextField
           value={formValue.price}
           onChange={(e) => handleChange(e)}

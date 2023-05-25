@@ -37,15 +37,13 @@ const FavPage = () => {
             <CardContent>
               <Typography
                 gutterBottom
-                variant="h5"
+                variant="body2"
                 color={" rgb(214, 214, 214)"}
                 component="div"
               >
                 {item.title}
               </Typography>
-              <Typography variant="body2" color={" rgb(214, 214, 214)"}>
-                {item.price}
-              </Typography>
+
               <Button
                 size="small"
                 sx={{ color: " rgb(214, 214, 214)" }}

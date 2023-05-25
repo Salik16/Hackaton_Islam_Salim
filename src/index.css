@@ -5,12 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(214, 214, 214);
   width: 100%;
 }
 html {
-  background-color: rgb(214, 214, 214);
+  background-image: url("https://blog.teufelaudio.com/wp-content/uploads/2022/03/logos-titelbilder-auf-grau-1500x800.jpg");
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
