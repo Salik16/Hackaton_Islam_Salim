@@ -95,20 +95,6 @@ const AccessoryList = () => {
           color="primary"
           sx={{ color: "yellow" }}
         />
-
-        <FormControl fullWidth>
-          <InputLabel color="warning" id="demo-simple-select-label">
-            <Typography sx={{ color: "black" }}>Category</Typography>
-          </InputLabel>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={category}
-            label="Age"
-            onChange={(e) => setCategory(e.target.value)}
-            sx={{ color: "black", position: "relative", left: "35%" }}
-          ></Select>
-        </FormControl>
       </Box>
       <Grid container spacing={2}>
         {accessory.map((item) => (
