@@ -169,7 +169,7 @@ function Navbar() {
             ) : null}
 
             <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
-              <Badge badgeContent={favLength} color="default">
+              <Badge badgeContent={favLength} color="primary">
                 <FavoriteBorderIcon sx={{ color: "black" }} />
               </Badge>
             </IconButton>
