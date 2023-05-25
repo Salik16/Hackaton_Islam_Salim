@@ -7,6 +7,7 @@ export const ACTIONS = {
   user: "user",
   cart: "cart",
   cartLength: "cartLength",
+
   favorite: "favorite",
   favLength: "favLength",
   accessory: "accessory",

@@ -90,6 +90,12 @@ const AuthContextProvider = ({ children }) => {
       return bool;
     }
   }
+  function isUser() {
+    if (state.user) {
+      const bool = ACTIONS.user.includes(state.user.email);
+      return bool;
+    }
+  }
 
   let values = {
     register,
@@ -97,6 +103,7 @@ const AuthContextProvider = ({ children }) => {
     login,
     logout,
     isAdmin,
+    isUser,
   };
 
   return <authContext.Provider value={values}>{children}</authContext.Provider>;

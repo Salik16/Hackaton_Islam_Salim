@@ -11,14 +11,14 @@ import {
 } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { useProduct } from "../contexts/ProductsContextProvider";
+import { useAuth } from "../contexts/AuthContextProvider";
 
 import { IconButton } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
 import { useCart } from "../contexts/CartContextProvider";
-import { useAuth } from "../contexts/AuthContextProvider";
+
 import { useFav } from "../contexts/FavoriteContextProvider";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const DetailsPage = () => {
   const { oneProduct, getOneProduct } = useProduct();

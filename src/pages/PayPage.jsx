@@ -24,7 +24,7 @@ const PayPage = () => {
   });
 
   function pay() {
-    notify("Спасибо за покупку");
+    notify("Спасибо за покупку"); 
   }
 
   function handleChange(e) {
