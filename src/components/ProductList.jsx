@@ -106,7 +106,7 @@ const ProductList = () => {
             value={category}
             label="Age"
             onChange={(e) => setCategory(e.target.value)}
-            sx={{ color: "black" }}
+            sx={{ color: "black", position: "relative", left: "35%" }}
           >
             <MenuItem value={"all"}>All</MenuItem>
             <MenuItem value={"Action"}>Action</MenuItem>
@@ -115,7 +115,7 @@ const ProductList = () => {
           </Select>
         </FormControl>
       </Box>
-      <Grid container spacing={2}>
+      <Grid container spacing={3} wrap="wrap">
         {products.map((item) => (
           <Grid key={item.id} item md={4} sm={6}>
             <ProductCard item={item} key={item.id} />

@@ -60,8 +60,8 @@ const AccessEditPage = () => {
   };
 
   return (
-    <div style={{ backgroundColor: "black" }}>
-      <h1 style={{ textalign: "center" }}>Add Product</h1>
+    <div style={{ backgroundColor: "white" }}>
+      <h1 style={{ textalign: "center" }}>Edit Product</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
         style={{

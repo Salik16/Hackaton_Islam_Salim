@@ -40,33 +40,47 @@ const DetailsPage = () => {
       {oneProduct ? (
         <Card>
           <Box bgcolor={"rgb(214, 214, 214)"}>
-            <Box sx={{ display: "flex" }}>
+            <Box className="details" sx={{ display: "flex" }}>
               <CardMedia
                 component="img"
                 image={oneProduct.image}
                 title={oneProduct.image}
-                sx={{ marginTop: "20px", height: 500, width: 300 }}
+                sx={{
+                  marginTop: "20px",
+                  height: "50%",
+                  width: "30%",
+                  marginLeft: "20px",
+                }}
               />
               <Box>
                 <CardContent>
-                  <Typography gutterBottom variant="h3" component="div">
+                  <Typography gutterBottom variant="h5" component="div">
                     {oneProduct.title}
                   </Typography>
-                  <Typography variant="h5" color="text.secondary">
+                  <Typography
+                    variant="body1"
+                    width={"100%"}
+                    color="text.secondary"
+                  >
                     {oneProduct.description}
                   </Typography>
                 </CardContent>
                 {!data || !data.subscr ? (
                   <iframe
-                    width="700"
-                    height="400"
+                    className="trailer"
+                    width="100%"
                     src={oneProduct.trailer}
                     title={oneProduct.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                   ></iframe>
                 ) : (
-                  <video src={oneProduct.film} controls width={600}></video>
+                  <video
+                    className="video"
+                    src={oneProduct.film}
+                    controls
+                    width="100%"
+                  ></video>
                 )}
               </Box>
             </Box>

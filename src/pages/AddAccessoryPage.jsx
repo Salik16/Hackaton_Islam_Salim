@@ -45,7 +45,7 @@ const AddAccessoryPage = () => {
   };
 
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "white" }}>
       <h1 style={{ textalign: "center" }}>Add Accessory</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}

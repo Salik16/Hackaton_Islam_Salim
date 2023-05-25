@@ -106,7 +106,7 @@ const AccessoryList = () => {
             value={category}
             label="Age"
             onChange={(e) => setCategory(e.target.value)}
-            sx={{ color: "black" }}
+            sx={{ color: "black", position: "relative", left: "35%" }}
           ></Select>
         </FormControl>
       </Box>

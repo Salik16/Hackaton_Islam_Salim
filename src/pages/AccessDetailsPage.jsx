@@ -36,87 +36,89 @@ const AccessDetailsPage = () => {
   return (
     <div>
       {oneProduct ? (
-        <Card sx={{ display: "flex" }}>
-          <CardMedia
-            component="img"
-            sx={{ width: 350 }}
-            image={oneProduct.image}
-            title={oneProduct.image}
-          />
-          <Box>
-            <CardContent>
-              <Typography gutterBottom variant="h3" component="div">
-                {oneProduct.title}
-              </Typography>
-              <Typography variant="h5" color="text.secondary">
-                {oneProduct.description}
-              </Typography>
-              <Typography variant="h5">${oneProduct.price}</Typography>
-            </CardContent>
+        <Card>
+          <Box className="details" sx={{ display: "flex" }}>
+            <CardMedia
+              component="img"
+              sx={{ width: "50%" }}
+              image={oneProduct.image}
+              title={oneProduct.image}
+            />
+            <Box>
+              <CardContent>
+                <Typography gutterBottom variant="h3" component="div">
+                  {oneProduct.title}
+                </Typography>
+                <Typography variant="h5" color="text.secondary">
+                  {oneProduct.description}
+                </Typography>
+                <Typography variant="h5">${oneProduct.price}</Typography>
+              </CardContent>
 
-            <CardActions sx={{ display: "block" }}>
-              <Box>
-                {isAdmin() ? (
-                  <CardActions>
-                    <Button
-                      size="small"
-                      sx={{ color: " black" }}
-                      component={Link}
-                      to={`/comicsEdit/${oneProduct.id}`}
-                    >
-                      Edit
-                    </Button>
-                    <Button
-                      size="small"
-                      sx={{ color: "black" }}
-                      onClick={() => deleteProduct(oneProduct.id)}
-                    >
-                      Delete
-                    </Button>
-                    <IconButton
-                      onClick={() => addProductToCart(oneProduct)}
-                      sx={{
-                        color: `${
-                          isAlreadyInCart(oneProduct.id) ? "red" : "black"
-                        }`,
-                      }}
-                    >
-                      <AddShoppingCart />
-                    </IconButton>
-                  </CardActions>
-                ) : (
-                  <CardActions>
-                    <IconButton
-                      onClick={() => addProductToCart(oneProduct)}
-                      sx={{
-                        color: `${
-                          isAlreadyInCart(oneProduct.id) ? "red" : "black"
-                        }`,
-                        fontSize: "15px",
-                      }}
-                    >
-                      {`${
-                        isAlreadyInCart(oneProduct.id)
-                          ? "Remove From Cart"
-                          : "Add To Cart"
-                      }`}
-                      <AddShoppingCart />
-                    </IconButton>
-                  </CardActions>
-                )}
-              </Box>
-              <Button
-                component={Link}
-                to="/comics"
-                size="small"
-                sx={{
-                  bgcolor: "rgb(214, 214, 214)",
-                  color: "black",
-                }}
-              >
-                Exit To The Main Page
-              </Button>
-            </CardActions>
+              <CardActions sx={{ display: "block" }}>
+                <Box>
+                  {isAdmin() ? (
+                    <CardActions>
+                      <Button
+                        size="small"
+                        sx={{ color: " black" }}
+                        component={Link}
+                        to={`/comicsEdit/${oneProduct.id}`}
+                      >
+                        Edit
+                      </Button>
+                      <Button
+                        size="small"
+                        sx={{ color: "black" }}
+                        onClick={() => deleteProduct(oneProduct.id)}
+                      >
+                        Delete
+                      </Button>
+                      <IconButton
+                        onClick={() => addProductToCart(oneProduct)}
+                        sx={{
+                          color: `${
+                            isAlreadyInCart(oneProduct.id) ? "red" : "black"
+                          }`,
+                        }}
+                      >
+                        <AddShoppingCart />
+                      </IconButton>
+                    </CardActions>
+                  ) : (
+                    <CardActions>
+                      <IconButton
+                        onClick={() => addProductToCart(oneProduct)}
+                        sx={{
+                          color: `${
+                            isAlreadyInCart(oneProduct.id) ? "red" : "black"
+                          }`,
+                          fontSize: "15px",
+                        }}
+                      >
+                        {`${
+                          isAlreadyInCart(oneProduct.id)
+                            ? "Remove From Cart"
+                            : "Add To Cart"
+                        }`}
+                        <AddShoppingCart />
+                      </IconButton>
+                    </CardActions>
+                  )}
+                </Box>
+                <Button
+                  component={Link}
+                  to="/comics"
+                  size="small"
+                  sx={{
+                    bgcolor: "rgb(214, 214, 214)",
+                    color: "black",
+                  }}
+                >
+                  Exit To The Main Page
+                </Button>
+              </CardActions>
+            </Box>
           </Box>
         </Card>
       ) : (

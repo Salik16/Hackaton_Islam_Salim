@@ -46,7 +46,7 @@ const AddProductPage = () => {
   };
 
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "white" }}>
       <h1 style={{ textalign: "center" }}>Add Product</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}

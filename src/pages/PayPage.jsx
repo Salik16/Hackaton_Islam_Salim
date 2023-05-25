@@ -24,7 +24,7 @@ const PayPage = () => {
   });
 
   function pay() {
-    notify("Спасибо за покупку"); 
+    notify("Спасибо за покупку");
   }
 
   function handleChange(e) {
@@ -45,13 +45,13 @@ const PayPage = () => {
       alert("fill the fields");
       return;
     }
-    navigate("/accessory");
+    navigate("/comics");
     allDeleteFromCart();
     pay();
   }
 
   return (
-    <div>
+    <div style={{ backgroundColor: "white" }}>
       <Typography variant="h3">Покупка Акссесуаров</Typography>
       <Box
         sx={{

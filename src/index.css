@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  box-sizing: border-box;
 }
 html {
   background-image: url("https://blog.teufelaudio.com/wp-content/uploads/2022/03/logos-titelbilder-auf-grau-1500x800.jpg");

@@ -60,7 +60,7 @@ const EditPage = () => {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "white" }}>
       <h1 style={{ textalign: "center" }}>Edit Product</h1>
       <form
         onSubmit={(e) => handleSumbit(e)}
@@ -111,17 +111,9 @@ const EditPage = () => {
             value={formValue.category}
             onChange={(e) => handleChange(e)}
           >
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"Action"}>Action</MenuItem>
+            <MenuItem value={"Fantasy"}>Fantasy</MenuItem>
+            <MenuItem value={"Sci-Fi"}>Sci-Fi</MenuItem>
           </Select>
         </FormControl>
         <Button type="submit">Send Product</Button>
