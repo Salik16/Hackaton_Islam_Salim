@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.cardMedia {
+  flex-basis: 200px;
+  flex-grow: 1;
+  min-height: 100px;
+}
