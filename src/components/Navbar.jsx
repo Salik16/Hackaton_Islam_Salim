@@ -11,12 +11,20 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
-import SlideshowIcon from "@mui/icons-material/Slideshow";
-import { Link } from "react-router-dom";
 
-const pages = [{ title: "Films", link: "/" }];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { Link, NavLink } from "react-router-dom";
+import { Badge } from "@mui/material";
+import { ShoppingCart } from "@mui/icons-material";
+import { useAuth } from "../contexts/AuthContextProvider";
+import { useCart } from "../contexts/CartContextProvider";
+import { useFav } from "../contexts/FavoriteContextProvider";
+
+const pages = [
+  { title: "Films", link: "/" },
+  { title: "Comics", link: "/comics" },
+];
+const adminPages = [{ title: "Add Product", link: "/add" }];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -37,13 +45,23 @@ function Navbar() {
     setAnchorElUser(null);
   };
 
+  const { user, logout, isAdmin } = useAuth();
+  const { cartLength, getCart } = useCart();
+  const { favLength, getFav } = useFav();
+
+  React.useEffect(() => {
+    getCart();
+  }, []);
+  React.useEffect(() => {
+    getFav();
+  }, []);
+
+  let data = JSON.parse(localStorage.getItem("users"));
+
   return (
-    <AppBar position="static" color="transparent">
+    <AppBar sx={{ bgcolor: "white" }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <SlideshowIcon
-            sx={{ display: { xs: "none", md: "flex" }, mr: 1, color: "yellow" }}
-          />
           <Typography
             variant="h6"
             noWrap
@@ -53,11 +71,15 @@ function Navbar() {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "yellow",
+              color: "black",
               textDecoration: "none",
             }}
           >
-            FilmFocus
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png"
+              alt=""
+              width={70}
+            />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -69,7 +91,7 @@ function Navbar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon sx={{ color: "black" }} />
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -89,46 +111,45 @@ function Navbar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography
-                    component={Link}
-                    to={page.link}
-                    textAlign="center"
-                  >
-                    {page.title}
-                  </Typography>
-                </MenuItem>
-              ))}
+              {isAdmin()
+                ? pages.concat(adminPages).map((page, index) => (
+                    <MenuItem key={index} onClick={handleCloseNavMenu}>
+                      <Typography
+                        textalign="center"
+                        component={Link}
+                        to={page.link}
+                        color="black"
+                      >
+                        {page.title}
+                      </Typography>
+                    </MenuItem>
+                  ))
+                : pages.map((page, index) => (
+                    <MenuItem key={index} onClick={handleCloseNavMenu}>
+                      <Typography
+                        textalign="center"
+                        component={Link}
+                        to={page.link}
+                        color="black"
+                      >
+                        {page.title}
+                      </Typography>
+                    </MenuItem>
+                  ))}
             </Menu>
           </Box>
-          <AdbIcon
-            sx={{ color: "yellow", display: { xs: "flex", md: "none" }, mr: 1 }}
-          />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            LOGO
-          </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <Button
-                key={page}
+                key={index}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "yellow", display: "block" }}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  fontFamily: "monospace",
+                  display: "block",
+                }}
                 component={Link}
                 to={page.link}
               >
@@ -138,11 +159,36 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip>
+            {!data || !data.subscr ? (
+              <NavLink
+                style={{ color: "black", textDecoration: "none" }}
+                to={"/premium"}
+              >
+                Get a Premium Subscription
+              </NavLink>
+            ) : null}
+
+            <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
+              <Badge badgeContent={favLength} color="default">
+                <FavoriteBorderIcon sx={{ color: "black" }} />
+              </Badge>
+            </IconButton>
+            <IconButton component={Link} to="/cart" sx={{ color: "white" }}>
+              <Badge badgeContent={cartLength} color="primary">
+                <ShoppingCart sx={{ color: "black" }} />
+              </Badge>
+            </IconButton>
+            {user ? (
+              <Tooltip title="Open settings">
+                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                  <Avatar alt={user.displayName} src={user.photoURL} />
+                </IconButton>
+              </Tooltip>
+            ) : (
+              <Button component={Link} to={"/auth"} style={{ color: "black" }}>
+                Login
+              </Button>
+            )}
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"
@@ -159,13 +205,33 @@ function Navbar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography sx={{ color: "black" }} textAlign="center">
-                    {setting}
-                  </Typography>
-                </MenuItem>
-              ))}
+              <MenuItem
+                onClick={() => {
+                  logout();
+                }}
+              >
+                <Typography textalign="center">Log Out</Typography>
+              </MenuItem>
+              {isAdmin() ? (
+                <Box>
+                  <Button
+                    sx={{ color: "black", display: "block" }}
+                    component={Link}
+                    to="/add"
+                    textalign="center"
+                  >
+                    Add Product
+                  </Button>
+                  <Button
+                    sx={{ color: "black" }}
+                    component={Link}
+                    to="/addcomics"
+                    textalign="center"
+                  >
+                    Add Comics
+                  </Button>
+                </Box>
+              ) : null}
             </Menu>
           </Box>
         </Toolbar>

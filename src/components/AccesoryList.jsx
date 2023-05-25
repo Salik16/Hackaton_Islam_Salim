@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-// import ProductCard from "./ProductCard";
 import {
   Box,
   FormControl,
@@ -14,11 +13,12 @@ import {
 } from "@mui/material";
 import { useSearchParams } from "react-router-dom";
 import { LIMIT } from "../const";
-import { useProduct } from "../contexts/ProductsContextProvider";
-import ProductCard from "./ProductCard";
 
-const ProductList = () => {
-  const { products, getProduct, pageTotalCount } = useProduct();
+import AccessoryCard from "./AcessoryCard";
+import { useAccessory } from "../contexts/AccessoryContextProvider";
+
+const AccessoryList = () => {
+  const { accessory, getProduct, pageTotalCount } = useAccessory();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const [page, setPage] = useState(1);
@@ -107,18 +107,13 @@ const ProductList = () => {
             label="Age"
             onChange={(e) => setCategory(e.target.value)}
             sx={{ color: "black", position: "relative", left: "35%" }}
-          >
-            <MenuItem value={"all"}>All</MenuItem>
-            <MenuItem value={"Action"}>Action</MenuItem>
-            <MenuItem value={"Fantasy"}>Fantasy</MenuItem>
-            <MenuItem value={"Sci-Fi"}>Sci-Fi</MenuItem>
-          </Select>
+          ></Select>
         </FormControl>
       </Box>
-      <Grid container spacing={3} wrap="wrap">
-        {products.map((item) => (
+      <Grid container spacing={2}>
+        {accessory.map((item) => (
           <Grid key={item.id} item md={4} sm={6}>
-            <ProductCard item={item} key={item.id} />
+            <AccessoryCard item={item} key={item.id} />
           </Grid>
         ))}
       </Grid>
@@ -134,4 +129,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default AccessoryList;

@@ -1,9 +1,497 @@
 {
   "products": [
     {
+      "id": "1",
+      "title": "Iron Man",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/c8e2f069-15f1-4803-95c0-aba858fec360/300x450",
+      "description": "2008's Iron Man tells the story of Tony Stark, a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/fMKZMI8ByTs",
+      "film": "https://p1.oc.kg:8082/video/d/20/Zhelezniy_chelovek.mp4?an=0"
+    },
+    {
+      "id": "2",
+      "title": "The Incredible Hulk",
+      "image": "https://cdn.marvel.com/content/1x/theincrediblehulk_lob_crd_01_3.jpg",
+      "description": "In this new beginning, scientist Bruce Banner desperately hunts for a cure to the gamma radiation that poisoned his cells and unleashes the unbridled force of rage within him: The Hulk. Living in the shadows--cut off from a life he knew and the woman he loves, Betty Ross--Banner struggles to avoid the obsessive pursuit of his nemesis, General Thunderbolt Ross and the military machinery that seeks to capture him and brutally exploit his power. As all three grapple with the secrets that led to the Hulk's creation, they are confronted with a monstrous new adversary known as the Abomination, whose destructive strength exceeds even the Hulk's own. One scientist must make an agonizing final choice: accept a peaceful life as Bruce Banner or find heroism in the creature he holds inside--The Incredible Hulk.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/_-iXjRm3jG0",
+      "film": "https://p1.oc.kg:8082/video/c/hd/Neveroyatniy_halk720.mp4?an=0"
+    },
+    {
+      "id": "3",
+      "title": "Iron Man 2",
+      "image": "https://cdn.marvel.com/content/1x/ironman2_lob_crd_01_4.jpg",
+      "description": "With the world now aware that he is Iron Man, billionaire inventor Tony Stark faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts and 'Rhodey' Rhodes by his side, Tony must forge new alliances and confront a powerful new enemy.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/cHw0JLSPYmE",
+      "film": "https://p1.oc.kg:8082/video/d/14/Jel_chel_2.mp4?an=0"
+    },
+    {
+      "id": "4",
+      "title": "Thor",
+      "image": "https://cdn.marvel.com/content/1x/thor_lob_crd_01_1.jpg",
+      "description": "As the son of Odin, king of the Norse gods, Thor will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki, Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/KN0FHCErJjo",
+      "film": "https://p1.oc.kg:8082/video/a/26/Tor.mp4?an=0"
+    },
+    {
+      "id": "5",
+      "title": "Captain America: The First Avenger",
+      "image": "https://cdn.marvel.com/content/1x/captainamericathefirstavenger_lob_crd_01_0.jpg",
+      "description": "Marvel's 'Captain America: The First Avenger' focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/FxTlOl03x9c",
+      "film": "https://p1.oc.kg:8082/video/b/hd/CapAm2011_720.mp4?an=0"
+    },
+    {
+      "id": "6",
+      "title": "The Avengers",
+      "image": "https://cdn.marvel.com/content/1x/theavengers_lob_crd_03_0.jpg",
+      "description": "Marvel Studios presents in association with Paramount Pictures 'Marvel's The Avengers'--the super hero team up of a lifetime, featuring iconic Marvel super heroes Iron Man, the Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/5iw-hJ6xteE",
+      "film": "https://p1.oc.kg:8082/video/a/26/Mstiteli.mp4?an=0"
+    },
+    {
+      "id": "7",
+      "title": "Iron Man 3",
+      "image": "https://cdn.marvel.com/content/1x/ironman3_lob_crd_01_11.jpg",
+      "description": "Iron Man 3 Marvel's 'Iron Man 3' pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy's hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/-P_cWZPceKc",
+      "film": "https://p1.oc.kg:8082/video/a/25/Jelezniy_chelovek_3.mp4?an=0"
+    },
+    {
+      "id": "8",
+      "title": "Thor: The Dark World",
+      "image": "https://cdn.marvel.com/content/1x/thorthedarkworld_lob_crd_02.jpg",
+      "description": "In the aftermath of Marvel's 'Thor' and 'Marvel's The Avengers,' Thor fights to restore order across the cosmos...but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/uDguJxt47Vw",
+      "film": "https://p1.oc.kg:8082/video/d/3/Tor2720.mp4?an=0"
+    },
+    {
+      "id": "9",
+      "title": "Captain America: The Winter Soldier",
+      "image": "https://cdn.marvel.com/content/1x/captainamericathewintersoldier_lob_crd_01_2.jpg",
+      "description": "After the cataclysmic events in New York with The Avengers, Marvel's 'Captain America: The Winter Soldier,' finds Steve Rogers, aka Captain America, living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy--the Winter Soldier",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/P7iLTg96Z58",
+      "film": "https://p1.oc.kg:8082/video/c/hd/CapAm720.mp4?an=0"
+    },
+    {
+      "id": "10",
+      "title": "Guardians of the Galaxy",
+      "image": "https://cdn.marvel.com/content/1x/guardiansofthegalaxy_lob_crd_03_0.jpg",
+      "description": "An action-packed, epic space adventure, Marvel's 'Guardians of the Galaxy,' expands the Marvel Cinematic Universe into the cosmos, where brash adventurer Peter Quill finds himself the object of an unrelenting bounty hunt after stealing a mysterious orb coveted by Ronan, a powerful villain with ambitions that threaten the entire universe. To evade the ever-persistent Ronan, Quill is forced into an uneasy truce with a quartet of disparate misfits--Rocket, a gun-toting raccoon; Groot, a tree-like humanoid; the deadly and enigmatic Gamora; and the revenge-driven Drax the Destroyer. But when Quill discovers the true power of the orb and the menace it poses to the cosmos, he must do his best to rally his ragtag rivals for a last, desperate stand--with the galaxy's fate in the balance.",
+      "category": "Sci-Fi",
+      "trailer": "https://www.youtube.com/embed/P7iLTg96Z58",
+      "film": "https://p1.oc.kg:8082/video/d/18/Straji_HD.mp4?an=0"
+    },
+    {
+      "id": "11",
+      "title": "Avengers: Age of Ultron",
+      "image": "https://cdn.marvel.com/content/1x/avengersageofultron_lob_crd_03_0.jpg",
+      "description": "Marvel Studios presents “Avengers: Age of Ultron,” the epic follow-up to the biggest Super Hero movie of all time. When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes, including Iron Man, Captain America, Thor, The Incredible Hulk, Black Widow and Hawkeye, are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to the Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/1KAI-6KCUKA",
+      "film": "https://p1.oc.kg:8082/video/b/hd/Mstiteli_era_Altrona.mp4?an=0"
+    },
+    {
+      "id": "12",
+      "title": "Ant-Man",
+      "image": "https://cdn.marvel.com/content/1x/ant-man_lob_crd_01_9.jpg",
+      "description": "The next evolution of the Marvel Cinematic Universe brings a founding member of The Avengers to the big screen for the first time with Marvel Studios' 'Ant-Man.' Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/SQ6S-KrHvKA",
+      "film": "https://p1.oc.kg:8082/video/a/9/Ant_Man.mp4?an=0"
+    },
+    {
+      "id": "13",
+      "title": "Captain America: Civil War",
+      "image": "https://cdn.marvel.com/content/1x/captainamericacivilwar_lob_crd_01_10.jpg",
+      "description": "Steve Rogers leads the newly formed team of Avengers in their continued efforts to safeguard humanity. But after another incident involving the Avengers results in collateral damage, political pressure mounts to install a system of accountability, headed by a governing body to oversee and direct the team. The new status quo fractures the Avengers, resulting in two camps—one led by Steve Rogers and his desire for the Avengers to remain free to defend humanity without government interference, and the other following Tony Stark’s surprising decision to support government oversight and accountability.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/RCSK8k51WT4",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Cap720.mp4?an=0"
+    },
+    {
+      "id": "14",
+      "title": "Doctor Strange",
+      "image": "https://cdn.marvel.com/content/1x/doctorstrange_lob_crd_01_7.jpg",
+      "description": "From Marvel Studios comes “Doctor Strange,” the story of world-famous neurosurgeon Dr. Stephen Strange whose life changes forever after a horrific car accident robs him of the use of his hands. When traditional medicine fails him, he is forced to look for healing, and hope, in an unlikely place—a mysterious enclave known as Kamar-Taj. Before long Strange—armed with newly acquired magical powers—is forced to choose whether to return to his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/tOd-xlrqshw",
+      "film": "https://p1.oc.kg:8082/video/b/hd/Doctor_Strange720.mp4?an=0"
+    },
+    {
+      "id": "15",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "image": "https://cdn.marvel.com/content/1x/guardiansofthegalaxyvol.2_lob_crd_01_0.jpg",
+      "description": "Set to the backdrop of ‘Awesome Mixtape #2,’ Marvel’s Guardians of the Galaxy Vol. 2 continues the team’s adventures as they traverse the outer reaches of the cosmos. The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill’s true parentage. Old foes become new allies and fan-favorite characters from the classic comics will come to our heroes’ aid as the Marvel cinematic universe continues to expand.",
+      "category": "Sci-Fi",
+      "trailer": "https://www.youtube.com/embed/w5siIauNEw4",
+      "film": "https://p1.oc.kg:8082/video/a/hd4/StragiG2_720.mp4?an=0"
+    },
+    {
+      "id": "16",
+      "title": "Spider-Man: Homecoming",
+      "image": "https://cdn.marvel.com/content/1x/spider-manhomecoming_lob_crd_02.jpg",
+      "description": "A young Peter Parker/Spider-Man (Tom Holland), who made his sensational debut in Captain America: Civil War, begins to navigate his newfound identity as the web-slinging super hero in Spider-Man: Homecoming. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May (Marisa Tomei), under the watchful eye of his new mentor Tony Stark (Robert Downey, Jr.). Peter tries to fall back into his normal daily routine—distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man—but when the Vulture (Michael Keaton) emerges as a new villain, everything that Peter holds most important will be threatened.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/LiHypZWN6HY",
+      "film": "https://p1.oc.kg:8082/video/b/hd/SpiderMan_Homecoming720.mp4?an=0"
+    },
+    {
+      "id": "17",
+      "title": "Thor: Ragnarok",
+      "image": "https://cdn.marvel.com/content/1x/thorragnarok_lob_crd_03_0.jpg",
+      "description": "Thor is imprisoned on the other side of the universe without his mighty hammer and finds himself in a race against time to get back to Asgard to stop Ragnarok—the destruction of his homeworld and the end of Asgardian civilization—at the hands of an all-powerful new threat, the ruthless Hela. But first he must survive a deadly gladiatorial contest that pits him against his former ally and fellow Avenger—the Incredible Hulk!",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/I_y0tFpezQU",
+      "film": "https://p1.oc.kg:8082/video/a/hd4/Thor_Ragnarok720.mp4?an=0"
+    },
+    {
+      "id": "18",
+      "title": "Black Panther",
+      "image": "https://cdn.marvel.com/content/1x/blackpanther_lob_crd_01_4.jpg",
+      "description": "Marvel Studios’ “Black Panther” follows T’Challa who, after the death of his father, the King of Wakanda, returns home to the isolated, technologically advanced African nation to succeed to the throne and take his rightful place as king. But when a powerful old enemy reappears, T’Challa’s mettle as king—and Black Panther—is tested when he is drawn into a formidable conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people and their way of life.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/qGpejFwCZS0",
+      "film": "https://p1.oc.kg:8082/video/c/hd/Pantera720.mp4?an=0"
+    },
+    {
+      "id": "19",
+      "title": "Avengers: Infinity War",
+      "image": "https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_crd_02.jpg",
+      "description": "An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios' 'Avengers: Infinity War' brings to the screen the ultimate, deadliest showdown of all time. As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/FeJKZMFJ7NA",
+      "film": "https://p1.oc.kg:8082/video/c/hd/Avengers_Infinity_War_Hd.mp4?an=0"
+    },
+    {
+      "id": "20",
+      "title": "Ant-Man and The Wasp",
+      "image": "https://cdn.marvel.com/content/1x/ant-manthewasp_lob_crd_01_0.jpg",
+      "description": "From the Marvel Cinematic Universe comes a new chapter featuring heroes with the astonishing ability to shrink: “Ant-Man and The Wasp.” In the aftermath of “Captain America: Civil War,” Scott Lang (Paul Rudd) grapples with the consequences of his choices as both a Super Hero and a father. As he struggles to rebalance his home life with his responsibilities as Ant-Man, he’s confronted by Hope van Dyne (Evangeline Lilly) and Dr. Hank Pym (Michael Douglas) with an urgent new mission. Scott must once again put on the suit and learn to fight alongside The Wasp as the team works together to uncover secrets from their past.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/EEHQNDLoRUs",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Ant_Man_and_the_Wasp_hd.mp4?an=0"
+    },
+    {
+      "id": "21",
+      "title": "Captain Marvel",
+      "image": "https://cdn.marvel.com/content/1x/captainmarvel_lob_crd_06.jpg",
+      "description": "Set in the 1990s, Marvel Studios' 'Captain Marvel' is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe that follows the journey of Carol Danvers as she becomes one of the universe's most powerful heroes. While a galactic war between two alien races reaches Earth, Danvers finds herself and a small cadre of allies at the center of the maelstrom.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/2eaZUwBWJLM",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Captain_Marvel_hd.mp4?an=0"
+    },
+    {
+      "id": "22",
+      "title": "Avengers: Endgame",
+      "image": "https://cdn.marvel.com/content/1x/avengersendgame_lob_crd_05.jpg",
+      "description": "The surviving Avengers and their allies mustThe grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films, \"Avengers: Endgame.\" assemble one final time to undo the devastating effects of Thanos' actions and restore order to the universe.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/QPRtU7EqQy0",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Avengers_Endgame_hd.mp4?an=0"
+    },
+    {
+      "id": "23",
+      "title": "Spider-Man: Far From Home",
+      "image": "https://cdn.marvel.com/content/1x/spider-manfarfromhome_lob_crd_04_3.jpg",
+      "description": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/-7DQrg0A4gQ",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Spider_man_hd.mp4?an=0"
+    },
+    {
+      "id": "24",
+      "title": "Black Widow",
+      "image": "https://cdn.marvel.com/content/1x/blackwidow_lob_crd_06.jpg",
+      "description": "In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/kWp3Rv0Ovho",
+      "film": "https://p1.oc.kg:8082/video/f/hd2/Black_Widow.mp4?an=0"
+    },
+    {
+      "id": "25",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "image": "https://cdn.marvel.com/content/1x/shangchi_lob_crd_07.jpg",
+      "description": "Marvel Studios' \"Shang-Chi and The Legend of The Ten Rings\" stars Simu Liu as Shang-Chi, who must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization. The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/uRHHBQldwo4",
+      "film": "https://p1.oc.kg:8082/video/f/1/Chan_shi7.mp4?an=0"
+    },
+    {
+      "id": "26",
+      "title": "Eternals",
+      "image": "https://cdn.marvel.com/content/1x/eternals_lob_crd_06.jpg",
+      "description": "Marvel Studios' Eternals features an exciting new team of Super Heroes in the Marvel Cinematic Universe, ancient aliens who have been living on Earth in secret for thousands of years. Following the events of Avengers: Endgame, an unexpected tragedy forces them out of the shadows to reunite against mankind's most ancient enemy, the Deviants.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/NSGsNm8rTgg",
+      "film": "https://p1.oc.kg:8082/video/e/hd/EternalsHD.mp4?an=0"
+    },
+    {
+      "id": "27",
+      "title": "Spider-Man: No Way Home",
+      "image": "https://cdn.marvel.com/content/1x/spider-mannowayhome_lob_crd_03.jpg",
+      "description": "Peter Parker's identity is revealed, and he seeks help from Doctor Strange to undo the consequences while facing multiple villains from different realities.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/hlANal2_tsc",
+      "film": "https://p1.oc.kg:8082/video/f/hd2/Spider_Man_No_Way_Home_hd.mp4?an=0"
+    },
+    {
+      "id": "28",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "image": "https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg",
+      "description": "Doctor Strange faces new threats and explores the mystical multiverse in an effort to protect reality.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/CVUNqmlGmfI",
+      "film": "https://p1.oc.kg:8082/video/f/hd/DOcror_Strange22_HD.mp4?an=0"
+    },
+    {
+      "id": "29",
+      "title": "Thor: Love and Thunder",
+      "image": "https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg",
+      "description": "Marvel Studios’ “Thor: Love and Thunder” finds the God of Thunder on a journey unlike anything he’s ever faced—one of self-discovery. But his efforts are interrupted by a galactic killer known as Gorr the God Butcher, who seeks the extinction of the gods. To combat the threat, Thor enlists the help of King Valkyrie, Korg and ex-girlfriend Jane Foster, who—to Thor’s surprise—inexplicably wields his magical hammer, Mjolnir, as the Mighty Thor.",
+      "category": "Fantasy",
+      "trailer": "https://www.youtube.com/embed/XQvFJwqumR8",
+      "film": "https://p1.oc.kg:8082/video/f/hd2/Thor_Love_and_Thunder_hd.mp4?an=0"
+    },
+    {
+      "id": "30",
+      "title": "Black Panther: Wakanda Forever",
+      "image": "https://cdn.marvel.com/content/1x/blackpantherwakandaforever_lob_crd_06.jpg",
+      "description": "Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M’Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba), fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia (Lupita Nyong’o) and Everett Ross (Martin Freeman) and forge a new path for the kingdom of Wakanda",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/egwkeTJmT0E",
+      "film": "https://p1.oc.kg:8082/video/c/hd2/Black_Panther2_hd.mp4?an=0"
+    },
+    {
+      "id": "31",
+      "title": "Ant-Man and The Wasp: Quantumania",
+      "image": "https://cdn.marvel.com/content/1x/antmanandthewaspquantumania_lob_crd_03.jpg",
+      "description": "In the film, which officially kicks off phase 5 of the Marvel Cinematic Universe, Super-Hero partners Scott Lang and Hope Van Dyne return to continue their adventures as Ant-Man and the Wasp. Together, with Hope's parents Hank Pym and Janet Van Dyne, the family finds themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought was possible. Jonathan Majors joins the adventure as Kang.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/zCjElNgzdSs",
+      "film": "https://p1.oc.kg:8082/video/a/9/Quantumania.mp4?an=0"
+    },
+    {
+      "id": "32",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "image": "https://cdn.marvel.com/content/1x/guardiansofthegalaxyvolume3_lob_crd_03.jpg",
+      "description": "The Guardians of the Galaxy return for another cosmic adventure while facing personal and cosmic challenges.",
+      "category": "Sci-Fi",
+      "trailer": "https://www.youtube.com/embed/CwVB_nwfntY",
+      "film": "https://imdb-video.media-imdb.com/vi2885010713/1434659607842-pgv4ql-16…QTYZpcesAZNk5OfxqF~9OCOi4A4BYVT0EHQWb7g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+    },
+    {
+      "id": "34",
+      "title": "Fantastic Four",
+      "image": "https://cdn.marvel.com/content/1x/fantasticfour_lob_crd_01.jpg",
+      "description": "The Fantastic Four gain superhuman powers after being exposed to cosmic rays and must use their abilities to protect the world.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/KdyAvurR_W0",
+      "film": "https://p1.oc.kg:8082/video/e/43/Fant4.mp4?an=0"
+    },
+    {
+      "id": "35",
+      "title": "X-Men",
+      "image": "https://cdn.marvel.com/content/1x/fox_x-menapocalypse_lob_crd_01.jpg",
+      "description": "A team of mutants with extraordinary abilities fights for the peaceful coexistence of mutants and humans.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/bh2xfa---F4",
+      "film": "https://p1.oc.kg:8082/video/c/hd3/Xmen720.mp4?an=0"
+    },
+    {
+      "id": "36",
+      "title": "Deadpool",
+      "image": "https://cdn.marvel.com/content/1x/deadpool_lob_crd_02.jpg",
+      "description": "Wade Wilson, a former mercenary, becomes the wisecracking anti-hero Deadpool and hunts down the man who nearly destroyed his life.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/57vTOdawe5w",
+      "film": "https://p1.oc.kg:8082/video/c/hd/pool720.mp4?an=0"
+    },
+    {
+      "id": "37",
+      "title": "X2: X-Men United",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/6/69/X-men2_poster.jpg",
+      "description": "The X-Men team up with their enemies, the Brotherhood of Mutants, to stop a mutant-hating military scientist's plans.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/-2brOwCnQBo",
+      "film": "https://p1.oc.kg:8082/video/d/hd2/X2720p.mp4?an=0"
+    },
+    {
+      "id": "38",
+      "title": "Spider-Man",
+      "image": "https://cdn.marvel.com/content/1x/spider-man_lob_crd_01.jpg",
+      "description": "Peter Parker gains spider-like abilities and uses them to fight crime as the masked superhero Spider-Man.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/yPPrM4Iq6E4",
+      "film": "https://p1.oc.kg:8082/video/a/27/Shelovek_pauk.mp4?an=0"
+    },
+    {
+      "id": "39",
+      "title": "X-Men: First Class",
+      "image": "https://images.justwatch.com/poster/185094672/s718/x-men-first-class.%7Bformat%7D",
+      "description": "The origins of the X-Men are explored as they unite to prevent a mutant supremacist from starting a nuclear war.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/AUMzFFDebIU",
+      "film": "https://p1.oc.kg:8082/video/d/18/X_men_First_Class_2011.mp4?an=0"
+    },
+    {
+      "id": "40",
+      "title": "The Wolverine",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/5/57/The_Wolverine.jpg",
+      "description": "Wolverine travels to Japan and faces both physical and emotional battles as he confronts a mysterious figure from his past.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/R69T7ZwgF_g",
+      "film": "https://p1.oc.kg:8082/video/d/20/Ludi_x_Rossomaha.mp4?an=0"
+    }
+  ],
+  "comics": [
+    {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "The Amazing Spider-Man",
+      "image": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/c0/63b4771f098c3/clean.jpg",
+      "description": "Description of The Amazing Spider-Man comic",
+      "price": 220
+    },
+    {
+      "id": 2,
+      "title": "X-Men: Dark Phoenix",
+      "image": "https://m.media-amazon.com/images/I/81MTfUlPPCL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Description of X-Men: Dark Phoenix comic",
+      "price": 220
+    },
+    {
+      "id": 3,
+      "title": "The Avengers: Endgame",
+      "image": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/e0/5cacf775b7a77/clean.jpg",
+      "description": "Description of The Avengers: Endgame comic",
+      "price": 220
+    },
+    {
+      "id": 4,
+      "title": "Iron Man: Extremis",
+      "image": "https://cdn.marvel.com/u/prod/marvel/i/mg/8/a0/5c015f20adc38/clean.jpg",
+      "description": "Description of Iron Man: Extremis comic",
+      "price": 220
+    },
+    {
+      "id": 5,
+      "title": "Captain America: The Winter Soldier",
+      "image": "https://cdn.marvel.com/u/prod/marvel/i/mg/e/60/4bc60f02bc3bd/detail.jpg",
+      "description": "Description of Captain America: The Winter Soldier comic",
+      "price": 220
+    },
+    {
+      "id": 6,
+      "title": "Thor: God of Thunder",
+      "image": "https://yousellcomics.com/wp-content/uploads/2021/06/IMG_20210615_110815-scaled.jpg",
+      "description": "Description of Thor: God of Thunder comic",
+      "price": 220
+    },
+    {
+      "id": 7,
+      "title": "Black Widow: Deadly Origin",
+      "image": "https://m.media-amazon.com/images/I/51BNbOE3-LL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Description of Black Widow: Deadly Origin comic",
+      "price": 220
+    },
+    {
+      "id": 8,
+      "title": "Guardians of the Galaxy: Cosmic Avengers",
+      "image": "https://m.media-amazon.com/images/I/61tJ9TtH8AL._SX338_BO1,204,203,200_.jpg",
+      "description": "Description of Guardians of the Galaxy: Cosmic Avengers comic",
+      "price": 220
+    },
+    {
+      "id": 9,
+      "title": "Doctor Strange: The Oath",
+      "image": "https://m.media-amazon.com/images/I/51+oOyS2tJL._SY344_BO1,204,203,200_.jpg",
+      "description": "Description of Doctor Strange: The Oath comic",
+      "price": 220
+    },
+    {
+      "id": 10,
+      "title": "The Incredible Hulk: Planet Hulk",
+      "image": "https://m.media-amazon.com/images/I/51vwyoQisaL._SY346_.jpg",
+      "description": "Description of The Incredible Hulk: Planet Hulk comic",
+      "price": 220
+    },
+    {
+      "id": 11,
+      "title": "Daredevil: Born Again",
+      "image": "https://m.media-amazon.com/images/I/81ibfPkEFTL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Daredevil: Born Again comic",
+      "price": 220
+    },
+    {
+      "id": 12,
+      "title": "The Punisher: Welcome Back, Frank",
+      "image": "https://m.media-amazon.com/images/I/5183prCSHNL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of The Punisher: Welcome Back, Frank comic",
+      "price": 220
+    },
+    {
+      "id": 13,
+      "title": "Spider-Man: Kraven's Last Hunt",
+      "image": "https://m.media-amazon.com/images/I/91UjmR9dZVL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Spider-Man: Kraven's Last Hunt comic",
+      "price": 220
+    },
+    {
+      "id": 14,
+      "title": "The Mighty Thor: The God Butcher",
+      "image": "https://m.media-amazon.com/images/I/81hKdZTBuEL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of The Mighty Thor: The God Butcher comic",
+      "price": 220
+    },
+    {
+      "id": 15,
+      "title": "Captain Marvel: Higher, Further, Faster, More",
+      "image": "https://m.media-amazon.com/images/I/513+-zh9nmL.jpg",
+      "description": "Description of Captain Marvel: Higher, Further, Faster, More comic",
+      "price": 220
+    },
+    {
+      "id": 16,
+      "title": "Black Panther: A Nation Under Our Feet",
+      "image": "https://m.media-amazon.com/images/I/91VAyi0CDNL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Black Panther: A Nation Under Our Feet comic",
+      "price": 220
+    },
+    {
+      "id": 17,
+      "title": "Ms. Marvel: No Normal",
+      "image": "https://m.media-amazon.com/images/I/81Xu5XSaFxL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Ms. Marvel: No Normal comic",
+      "price": 220
+    },
+    {
+      "id": 18,
+      "title": "Hawkeye: My Life as a Weapon",
+      "image": "https://m.media-amazon.com/images/I/61nKIshwpwL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Hawkeye: My Life as a Weapon comic",
+      "price": 220
+    },
+    {
+      "id": 19,
+      "title": "Deadpool: The Complete Collection",
+      "image": "https://m.media-amazon.com/images/I/91sm83KZb2L._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Deadpool: The Complete Collection comic",
+      "price": 220
+    },
+    {
+      "id": 20,
+      "title": "Fantastic Four: Season One",
+      "image": "https://m.media-amazon.com/images/I/51Y7A48NcXL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Description of Fantastic Four: Season One comic",
+      "price": 220
     }
   ]
 }

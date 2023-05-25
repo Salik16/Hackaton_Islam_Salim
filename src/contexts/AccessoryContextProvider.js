@@ -1,20 +1,20 @@
 import React, { createContext, useContext, useReducer } from "react";
-import { ACTIONS, API, LIMIT } from "../const";
+import { ACTIONS, API, ACCESSORY, LIMIT } from "../const";
 import axios from "axios";
 
-const productContext = createContext();
-export const useProduct = () => useContext(productContext);
+const accessoryContext = createContext();
+export const useAccessory = () => useContext(accessoryContext);
 
 let INIT_STATE = {
-  products: [],
+  accessory: [],
   oneProduct: null,
   pageTotalCount: 1,
 };
 
 function reducer(state = INIT_STATE, aciton) {
   switch (aciton.type) {
-    case ACTIONS.products:
-      return { ...state, products: aciton.payload };
+    case ACTIONS.accessory:
+      return { ...state, accessory: aciton.payload };
     case ACTIONS.oneProduct:
       return { ...state, oneProduct: aciton.payload };
     case ACTIONS.pageTotalCount:
@@ -24,17 +24,17 @@ function reducer(state = INIT_STATE, aciton) {
   }
 }
 
-const ProductsContextProvider = ({ children }) => {
+const AccessoryContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   async function getProduct() {
     try {
       let res = await axios(
-        `${API}${window.location.search || `?_limit=${LIMIT}`}`
+        `${ACCESSORY}${window.location.search || `?_limit=${LIMIT}`}`
       );
       const totalPages = Math.ceil(res.headers["x-total-count"] / LIMIT);
       dispatch({
-        type: ACTIONS.products,
+        type: ACTIONS.accessory,
         payload: res.data,
       });
       dispatch({
@@ -48,7 +48,7 @@ const ProductsContextProvider = ({ children }) => {
 
   const addProduct = async (newProduct) => {
     try {
-      await axios.post(API, newProduct);
+      await axios.post(ACCESSORY, newProduct);
     } catch (error) {
       console.log(error);
     }
@@ -56,7 +56,7 @@ const ProductsContextProvider = ({ children }) => {
 
   async function deleteProduct(id) {
     try {
-      await axios.delete(`${API}/${id}`);
+      await axios.delete(`${ACCESSORY}/${id}`);
       getProduct();
     } catch (error) {
       console.log(error);
@@ -65,7 +65,7 @@ const ProductsContextProvider = ({ children }) => {
 
   async function getOneProduct(id) {
     try {
-      let res = await axios.get(`${API}/${id}`);
+      let res = await axios.get(`${ACCESSORY}/${id}`);
       dispatch({
         type: ACTIONS.oneProduct,
         payload: res.data,
@@ -77,7 +77,7 @@ const ProductsContextProvider = ({ children }) => {
 
   async function editProduct(obj, id) {
     try {
-      await axios.patch(`${API}/${id}`, obj);
+      await axios.patch(`${ACCESSORY}/${id}`, obj);
     } catch (error) {
       console.log(error);
     }
@@ -85,7 +85,7 @@ const ProductsContextProvider = ({ children }) => {
 
   let values = {
     oneProduct: state.oneProduct,
-    products: state.products,
+    accessory: state.accessory,
     pageTotalCount: state.pageTotalCount,
     getProduct,
     addProduct,
@@ -95,8 +95,10 @@ const ProductsContextProvider = ({ children }) => {
   };
 
   return (
-    <productContext.Provider value={values}>{children}</productContext.Provider>
+    <accessoryContext.Provider value={values}>
+      {children}
+    </accessoryContext.Provider>
   );
 };
 
-export default ProductsContextProvider;
+export default AccessoryContextProvider;

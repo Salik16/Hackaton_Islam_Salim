@@ -5,15 +5,27 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import Toastify from "./components/Toastify";
 import ProductsContextProvider from "./contexts/ProductsContextProvider";
+import CartContextProvider from "./contexts/CartContextProvider";
+import AuthContextProvider from "./contexts/AuthContextProvider";
+import FavoriteContextProvider from "./contexts/FavoriteContextProvider";
+import AccessoryContextProvider from "./contexts/AccessoryContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ProductsContextProvider>
-        <Toastify />
-        <App />
-      </ProductsContextProvider>
+      <CartContextProvider>
+        <FavoriteContextProvider>
+          <AuthContextProvider>
+            <AccessoryContextProvider>
+              <ProductsContextProvider>
+                <Toastify />
+                <App />
+              </ProductsContextProvider>
+            </AccessoryContextProvider>
+          </AuthContextProvider>
+        </FavoriteContextProvider>
+      </CartContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

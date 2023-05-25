@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://celes.club/uploads/posts/2022-05/thumbs/1653695727_37-celes-club-p-fon-iz-starikh-filmov-krasivie-38.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+html {
+  background-image: url("https://blog.teufelaudio.com/wp-content/uploads/2022/03/logos-titelbilder-auf-grau-1500x800.jpg");
 }
 
 code {
