@@ -1,532 +1,323 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Зеленая миля",
-      "image": "https://flxt.tmsimg.com/assets/p24429_p_v12_bf.jpg",
-      "description": "Драматическая история о стражнике исправительного учреждения и заключенном, обладающем невероятным даром.",
-      "category": "драма",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/Ca3mUSDJlgM",
-      "film": "https://p1.oc.kg:8082/video/a/25/The_green_Mile.mp4?an=0"
+      "id": "1",
+      "title": "Iron Man",
+      "image": "https://cdn.marvel.com/content/1x/ironman_lob_crd_01_3.jpg",
+      "description": "Billionaire Tony Stark creates a suit of armor to save his own life and becomes the superhero Iron Man.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/fMKZMI8ByTs"
     },
     {
-      "id": 2,
-      "title": "Побег из Шоушенка",
-      "image": "https://www.kinopoisk.ru/1r46e2b65/1fbc4bXaWZDX/jipsltvahl4CH4Pi9l9YZopuBskFbS4mivMXOAxT9n_sc_BWl5oLNtra_UGasaOOQy-xqytPuzV_JofBG91U9_pvOWf6H9Nb43sTknNvKccfi8eYsehKZ1vGwo3-oPT8zuTSNWUYCfDOvtmg7wQW6kcvZE973noBCAU20Q-J0DSf6-_U_GvHD8fugbI2XRmRGq4W3RW-_bD5cBWrzBOWbH70coSEKXsTff2a5u4WpEn0nvSOWFvpgTjGQ6M-GXL3z5tcFT2rFP9XfTFghk2rsqq_xw5nzvwAmdD3C37SZ5w-5mFlFShqM78fO7dcNGTLtL8Grsn56WPa1FDD7Gmwt1_pbpcveObcN70BQ3TuaOFqLQcepf_swsli1XvM02St7uYyVpeZ-jKPTbomroYEyva9Vq56Obgyqafyg2zZQVa9eF3FjDkU_qRcM8FFDbtQ6vyELGYM7UK7M7bJ3RCGvD2EcHRXyohC3TwqZ41kRJvHLpdO2MrYodr04CM8auKE7kkddf1b1z2kzHKwJG2owgn_xr9HnN-zScPm2AxSJ0__pGGVdZjIUMz_CAZd98S55t30notJCaHKtpHgjOuSNp4YztSuK3Vv5o0TMIZta6P5D2Texo-vwfqgFbotwyRsDgVg9uW4OTFerrqlTNbFqKWvVJ9r64mSuNfhwc2JI6T_Wv7m_giG7XfOYMNU_5uSWt6lvGfvjCIZMIXoLdNX3rzVg9a0m_lQf0zrRS90JuuEjhYfy-paIhnkg8Pf66EVf7l8N96rVX0WP3Mzlx-6sngcdw6GHt_C-tAlu11D5Az-VdJH59vpcXzOqIR-JRUoZb11TdnpmfDaltFCHdtQ1rzLfvXfyNQPhd7Ao0ctGPI5_Ub8lE0tMEkSp1pcwgQ-bZdBZgTp-MF975uknJWUGgVfth9p6xuAGOdgQz65U9TPWR0lvHpnLKatEtLWf1lzy731DcV_7lPI0xdanbMU_3xlUBS0m1uSntw4t6zlBWrFH6b-WYkZ0zsWo4OeS-D1PnoshW649C1V_iOxd22Y48pt1_-UTt_BS-ElKe4yp05_5lJWBLv6Mz2dKibdRJcr9z6Ef8h4W_DLh2CiL5vCpV24T5Sfu9Sup-yyY2SdS3A6TJVMxS7tozjj9InsYRSuTLVCpjVISZMMvso2z6SnOdTPZC9p-9lh2ldiwW0LIWQfStyWr4pELUasssAFPBiyS89WLMY_r4Ap0tWKnhCGXc40UbZ1KwvA31-7Vr6Ux0mGvcfdWVvIM_ukgHIPKVIVrwnsFT5qhU10XCGRVV3JQFhN1b-3jh4A2pEWej4SZJ481QB2tsipIt2tWObd9_Q4phyGbFu4yWM5JaLjXanzdzw4PNcf2wavRY6DMYSueONaLTVfJ-0P48gD1FuvEURfjVdS5DYr2gLPnMv0rCfVKAaNFIy6CAlAinRCgAxZQtQeer2nLyvGL0QOkLDlTglQem40zuXcL4MbY8dIXPIlnV2HYEbG6qgjr4zI5T_G9NsUbWb-aMp50PnEkXM_uZMkPhgsNb2IlO8Gn1KBlm8pUOu-5OyHXEziecNGS-8xFL3892C05qoqwI_t6Mdtxhcqhx_Fjok7qVFq9_Ojz9rB9K74bIduePaNB-5Q8FWPS9I4vwYPVk5vArshpLh8QZef_1WgZPc66jJM_ximLOUFOxRe5Y75O_hiG9bykzxoA-cN-u11PXt3HhdeIoKVL9swiC6XDVe9vPAqIUe4rMG0f9-XQnaVWUmA3G8btM7UpYulbwbs2HnbQ8s3UcGeCtElTiiu505ZVE-0v0NjtJ1pcrhvVA01f2zCOwFFWt3jRm_PljK3Fct4437em5Z_BFVaNv9VvGr6GlEalqLhrFmhdcx4XXTeOSWOBA5CY3U9e9A4HkUtho-dkClzFcoOc-aOLPcANmUq-XKOXXhkvRSmWmR_NJyLq8sD2eYisx7q8iU_KlzXj5i23HYuksOHDomDC-9nD0QsTVJoI6VYblM3js21cISV-rpxDu1qRw_WNho0TMSeO1u7sAsE84POCIIX3bi-1K-Ktk3F_oDy5o-o0qjsdu2Ubi1DWhN0eM3T5P_dxRKmh3pYEIzNacV9VRaYVM62jUrIu8L6lnBjf5ug9r8ajyduWxReFu8DoiW9qNFaTNevhI48YrsAtyofQlSuPGWjZzeaaYE-jtg2zJUnOaV-BY6Jm-uSeYVAQi7Y4Ie-C081L4sEf_WO8PI2DeqgSF1HDGdOHCLqsVfr_lFnn0xH4JfUurtAP_8Z5k_m1apU3fffS9pYUOl1YhJv63NHXQkth7wbxE4XzgCCBA5awkouZ1yUb20AerMk6b_wZH--RgDVxXhLs2-PeORN1Ob4NA1F7vhKq-E5JdHh_sqhpd_5bca_uSUdps7Bk4Zdm9LJrOdcl64cIkrDZNjPc_bdvWRwNmT6ODA8rij0LBSXGgbcBFy4SLsAGIXiw36b4DTfGMzHb1t2bHZ-AQF0nysROG8HL8W8_YMLYpdL_ECk3vw3c5Rnalpy_146xk-F5ju0_3XsGEuYoLr04kIOaWDHXTrtFZ_LVUwmbiLw9y_as1nu5O7FfU3TyqD1qHwxFU3u1bBnZenp8M89mEUPxLRK510XngmIqHPbxVPirjoD10wrbpV-KMcvx58yYGc9mxM6DHQPxy8fsnqixPrvckXP7rXw1Jb7OzF_XUlG7qaliKRvdd6ry5ohKpbT4-4pkOasKBwlPZgXLkQ9IUIEDzny2H6WzVWfjzDZ45dozRM23771sURVmPggTt9aBM3mlRum_ofvORsaUClmc-J8msE23wndxcwb9rx2bYOwV387Anu-99xWTy1C2NAXW_5hhL7u5UOE17q7At3dSuQtRxYYhu7mfyp4-lFLNgLBX8iDBvwa7UT-GxUdJbyBcPcseqNITvYPxA8N8NvCB3pv4JTOHWQRVrQKaMI_vxmHHxSmSdR_ta65WPhSQ",
-      "description": "История банкира Энди Дюфрейна, осужденного за убийство и его попытка сбежать из тюрьмы Шоушенк.",
-      "category": "драма",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/kgAeKpAPOYk",
-      "film": "https://p1.oc.kg:8082/video/e/39/Pobeg_sts_ort.mp4?an=0"
+      "id": "2",
+      "title": "The Incredible Hulk",
+      "image": "https://cdn.marvel.com/content/1x/theincrediblehulk_lob_crd_01_2.jpg",
+      "description": "Scientist Bruce Banner transforms into a powerful green creature known as the Hulk whenever he gets angry.",
+      "category": "Action",
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 3,
-      "title": "Темный рыцарь",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
-      "description": "Супергеройский боевик, где Бэтмен сталкивается с преступником-джокером.",
-      "category": "боевик",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/HF1_epZNoCg",
-      "film": "https://p1.oc.kg:8082/video/e/44/Temnoy_ritcar.mp4?an=0"
+      "id": "3",
+      "title": "Iron Man 2",
+      "image": "https://cdn.marvel.com/content/1x/ironman2_lob_crd_01_3.jpg",
+      "description": "Tony Stark faces new challenges and adversaries as he continues to use his technology to protect the world as Iron Man.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 4,
-      "title": "Интерстеллар",
-      "image": "https://upload.wikimedia.org/wikipedia/ru/c/c3/Interstellar_2014.jpg",
-      "description": "Увлекательное путешествие к галактикам в поисках нового дома для человечества.",
-      "category": "научная фантастика",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/qcPfI0y7wRU",
-      "film": "https://p1.oc.kg:8082/video/b/37/Interstellar.mp4?an=0"
+      "id": "4",
+      "title": "Thor",
+      "image": "https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg",
+      "description": "The powerful but arrogant god Thor is banished to Earth and learns what it takes to be a true hero.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 5,
-      "title": "Матрица",
-      "image": "https://www.mirf.ru/wp-content/uploads/2017/10/matrix.jpg",
-      "description": "Научно-фантастический боевик, где человечество живет в иллюзорном мире, созданном компьютерами.",
-      "category": "научная фантастика",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/YihPA42fdQ8",
-      "film": "https://p1.oc.kg:8082/video/d/19/Matrix.mp4?an=0"
+      "id": "5",
+      "title": "Captain America: The First Avenger",
+      "image": "https://cdn.marvel.com/content/1x/captainamerica_lob_crd_01.jpg",
+      "description": "Steve Rogers, a rejected military soldier, becomes Captain America and leads the fight against the Red Skull.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 6,
-      "title": "Звездные войны: Эпизод IV - Новая надежда",
-      "image": "https://rus.team/images/article/50932/2019-05-24-407_84474-1_902402.webp",
-      "description": "Первая часть знаменитой космической саги, где молодой фермер Люк Скайуокер становится героем борьбы с Империей.",
-      "category": "фантастика",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/1iHt3J6eLKk",
-      "film": "https://p1.oc.kg:8082/video/a/24/Starvars_ep4.mp4?an=0"
+      "id": "6",
+      "title": "The Avengers",
+      "image": "https://cdn.marvel.com/content/1x/theavengers_lob_crd_03.jpg",
+      "description": "Earth's mightiest heroes, including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye, join forces to save the world from Loki and his alien army.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 7,
-      "title": "Властелин колец: Возвращение короля",
-      "image": "https://upload.wikimedia.org/wikipedia/ru/a/a9/%D0%92%D0%9A_%D0%92%D0%9A_soundtrack.jpg",
-      "description": "Завершающая часть эпической фэнтезийной трилогии о борьбе за Средиземье.",
-      "category": "фэнтези",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/r5X-hFf6Bwo",
-      "film": "https://p1.oc.kg:8082/video/d/13/Vlast_kolec_vozvr_korolya.mp4?an=0"
+      "id": "7",
+      "title": "Iron Man 3",
+      "image": "https://cdn.marvel.com/content/1x/ironman3_lob_crd_01_10.jpg",
+      "description": "Tony Stark must protect his loved ones and confront his greatest fears when a powerful terrorist known as the Mandarin threatens the world.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 8,
-      "title": "Назад в будущее",
-      "image": "https://images.squarespace-cdn.com/content/v1/5c62c09c4d546e27dc1016c7/1680560388420-A7EO6JND0C2ZOUUZEE9P/BTTF+-+Casey+Likes+%26+Roger+Bart+-+Logo+-+Photo+by+Hugo+Glendinning.jpg?format=1500w",
-      "description": "Путешествие во времени, где молодой Марти МакФлай попадает в прошлое и меняет свое будущее.",
-      "category": "комедия",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/ou8w0gQHlRE",
-      "film": "https://p1.oc.kg:8082/video/a/26/Nazad_v_budushee.mp4?an=0"
+      "id": "8",
+      "title": "Thor: The Dark World",
+      "image": "https://cdn.marvel.com/content/1x/thorthedarkworld_lob_crd_02_1.jpg",
+      "description": "Thor teams up with his mischievous brother Loki to save the Nine Realms from an ancient enemy.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 9,
-      "title": "Криминальное чтиво",
-      "image": "https://faroutmagazine.co.uk/static/uploads/2021/08/Samuel-L.-Jackson-and-John-Travolta-as-mob-hit-men-Jules-Winnfield-and-Vincent-Vega-in-Pulp-Fiction.jpg",
-      "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
-      "category": "криминал",
-      "price": "200",
-      "trailer": " https://www.youtube.com/embed/vBADUmfa9Q4",
-      "film": "https://p1.oc.kg:8082/video/d/18/Pulp_Fiction_1994.mp4?an=0"
+      "id": "9",
+      "title": "Captain America: The Winter Soldier",
+      "image": "https://cdn.marvel.com/content/1x/captainamericathewintersoldier_lob_crd_01_1.jpg",
+      "description": "Captain America and the Black Widow uncover a conspiracy within S.H.I.E.L.D. while facing a mysterious assassin known as the Winter Soldier.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 10,
-      "title": "Леон",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD018gVTzzIlJKqyeKug9MMm38THFQgMOVDQ&usqp=CAU",
-      "description": "Тихий убийца Леон становится опекуном маленькой девочки Матильды, их жизни меняются навсегда.",
-      "category": "триллер",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/hvya_q8KM80",
-      "film": ""
+      "id": "10",
+      "title": "Guardians of the Galaxy",
+      "image": "https://cdn.marvel.com/content/1x/guardiansofthegalaxy_lob_crd_03.jpg",
+      "description": "A group of misfits including Star-Lord, Gamora, Drax, Rocket, and Groot band together to protect the galaxy from a powerful artifact.",
+      "category": "Sci-Fi"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 11,
-      "title": "Форрест Гамп",
-      "image": "https://gumlet.assettype.com/film-companion%2Fimport%2Fwp-content%2Fuploads%2F2017%2F09%2Fforrest20gump.jpg?auto=format%2Ccompress&fit=max&w=400&dpr=2.6",
-      "description": "История простого человека с ограниченными возможностями, который стал влиятельным и удачливым.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/x-0bvW-_2YI?r=0",
-      "film": ""
+      "id": "11",
+      "title": "Avengers: Age of Ultron",
+      "image": "https://cdn.marvel.com/content/1x/avengersageofultron_lob_crd_03.jpg",
+      "description": "The Avengers must stop the villainous Ultron from enacting his plan to destroy humanity.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 12,
-      "title": "Бойцовский клуб",
-      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/Fight_club.jpg/640px-Fight_club.jpg",
-      "description": "Две личности, борющиеся с современным потребительским обществом в подпольном бойцовском клубе.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "12",
+      "title": "Ant-Man",
+      "image": "https://cdn.marvel.com/content/1x/ant-man_lob_crd_01_8.jpg",
+      "description": "Master thief Scott Lang becomes the superhero Ant-Man as he uses a suit that allows him to shrink in size but increase in strength.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 13,
-      "title": "Хороший, плохой, злой",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8b9d4616-9426-4c74-a63c-296189f28213/600x900",
-      "description": "Классический вестерн, где три бандита ищут сокровище во времена Гражданской войны в США.",
-      "category": "вестерн",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "13",
+      "title": "Captain America: Civil War",
+      "image": "https://cdn.marvel.com/content/1x/captainamericacivilwar_lob_crd_01_9.jpg",
+      "description": "The Avengers are divided into two factions led by Captain America and Iron Man when a disagreement over government oversight splits the team.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 14,
-      "title": "Список Шиндлера",
-      "image": "https://m.media-amazon.com/images/I/817sLmprCSL._AC_UF894,1000_QL80_.jpg",
-      "description": "История Оскара Шиндлера, который спасает евреев от гибели во время Холокоста.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "14",
+      "title": "Doctor Strange",
+      "image": "https://cdn.marvel.com/content/1x/doctorstrange_lob_crd_01_6.jpg",
+      "description": "Dr. Stephen Strange becomes a master of the mystic arts and defends the Earth against mystical threats.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 15,
-      "title": "В погоне за счастьем",
-      "image": "https://images.moviesanywhere.com/08b5312f6334adf18414ccfb2093960a/80420ae5-16eb-41ce-b0be-a6f2a04b1a16.jpg",
-      "description": "История Криса Гарднера, который из бездомного становится успешным бизнесменом.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "15",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "image": "https://cdn.marvel.com/content/1x/guardiansofthegalaxyvol.2_lob_crd_01.jpg",
+      "description": "The Guardians of the Galaxy embark on another adventure and unravel the mystery of Star-Lord's parentage.",
+      "category": "Sci-Fi"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 16,
-      "title": "Престиж",
-      "image": "https://images.moviesanywhere.com/4d9df0e6b0bd732b3d1fa967b5b919fa/1adaca39-ae5e-4867-91fd-6025d3d08eb4.jpg?h=375&resize=fit&w=250",
-      "description": "Соперничество двух иллюзионистов, которое выходит за рамки сцены.",
-      "category": "триллер",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "16",
+      "title": "Spider-Man: Homecoming",
+      "image": "https://cdn.marvel.com/content/1x/spider-manhomecoming_lob_crd_02.jpg",
+      "description": "Young Peter Parker balances his life as a high school student and his superhero alter ego Spider-Man, who faces a new threat called the Vulture.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 17,
-      "title": "Титаник",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjCxUAkVFRS3wtyg3AjYTF2cwttzf6hlrLv7vQfitAEK3wd2haosedT0mEulRpcpCNBg&usqp=CAU",
-      "description": "Любовная история на фоне крушения легендарного парохода Титаник.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "17",
+      "title": "Thor: Ragnarok",
+      "image": "https://cdn.marvel.com/content/1x/thorragnarok_lob_crd_03.jpg",
+      "description": "Thor must escape from the alien planet Sakaar and prevent the destruction of Asgard by the powerful Hela.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 18,
-      "title": "Гладиатор",
-      "image": "https://ru-images-s.kinorium.com/movie/1080/143897.jpg?1678576575",
-      "description": "История генерала, ставшего рабом-гладиатором, который борется за свободу и мести.",
-      "category": "боевик",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "18",
+      "title": "Black Panther",
+      "image": "https://cdn.marvel.com/content/1x/blackpanther_lob_crd_01_4.jpg",
+      "description": "T'Challa, the newly crowned king of Wakanda, must defend his kingdom and the world as the Black Panther.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 19,
-      "title": "Джанго освобожденный",
-      "image": "https://images.squarespace-cdn.com/content/v1/5cc6f46504907969c57db97b/1584651813423-QT3PWJD44GRI95XDMWHU/django+unchained+3.jpg?format=1000w",
-      "description": "Бывший раб Джанго и охотник на головы Шульц объединяются для освобождения жены Джанго.",
-      "category": "вестерн",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "19",
+      "title": "Avengers: Infinity War",
+      "image": "https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_crd_02_1.jpg",
+      "description": "The Avengers and their allies must unite to stop the powerful Thanos from collecting all the Infinity Stones and unleashing his devastating plan.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 20,
-      "title": "Безумный Макс: Дорога ярости",
-      "image": "https://www.film.ru/sites/default/files/images/mad-max-fury-road-image-tom-hardy-riley-keough-zoe-kravitz-courtney-eaton-rosie-huntington-whiteley-abbey-lee.jpg",
-      "description": "Жестокая борьба за выживание в постапокалиптическом мире, где вода и бензин являются ценным ресурсом.",
-      "category": "экшн",
-      "price": "330",
-      "trailer": "https://www.youtube.com/embed/an_MiUmpgs0",
-      "film": ""
+      "id": "20",
+      "title": "Ant-Man and The Wasp",
+      "image": "https://cdn.marvel.com/content/1x/antmanandthewaspquantumania_lob_crd_03.jpg",
+      "description": "Ant-Man teams up with the Wasp on a new mission to uncover secrets from their past while facing a powerful new enemy.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 21,
-      "title": "Однажды в Голливуде",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/70580cf5-3287-42d6-8a76-2c715e2f6172/600x900",
-      "description": "История актера и его каскадера в Голливуде конца 60-х годов.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "21",
+      "title": "Captain Marvel",
+      "image": "https://cdn.marvel.com/content/1x/captainmarvel_lob_crd_06.jpg",
+      "description": "Carol Danvers becomes one of the universe's most powerful heroes, Captain Marvel, as Earth is caught in the middle of an intergalactic conflict.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 22,
-      "title": "В бой идут одни старики",
-      "image": "https://i.ebayimg.com/images/g/9UIAAMXQC-tTEVUY/s-l1600.jpg",
-      "description": "Драматическая история советских солдат во время Великой Отечественной войны.",
-      "category": "военный",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "22",
+      "title": "Avengers: Endgame",
+      "image": "https://cdn.marvel.com/content/1x/logo_transparent_png_900x506.png",
+      "description": "The surviving Avengers and their allies must assemble one final time to undo the devastating effects of Thanos' actions and restore order to the universe.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 23,
-      "title": "В джазе только девушки",
-      "image": "https://citaty.info/files/posters/3248.jpg",
-      "description": "Комедийная история о музыкантах, скрывающихся в женской группе после случайного убийства.",
-      "category": "комедия",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "23",
+      "title": "Spider-Man: Far From Home",
+      "image": "https://cdn.marvel.com/content/1x/spider-manfarfromhome_lob_crd_04_3.jpg",
+      "description": "Peter Parker goes on a school trip to Europe but must step up as Spider-Man when new threats emerge, including the enigmatic Mysterio.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 24,
-      "title": "Бегущий по лезвию 2049",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
-      "description": "Офицер по уничтожению биоинженерных репликантов раскрывает тайну, которая может потрясти общество.",
-      "category": "научная фантастика",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "24",
+      "title": "Black Widow",
+      "image": "https://cdn.marvel.com/content/1x/011blw_com_crd_01.jpg",
+      "description": "Natasha Romanoff confronts her dark past as a spy and faces dangerous conspiracies tied to her origins.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 25,
-      "title": "Тихое место",
-      "image": "https://www.kinopoisk.ru/1r46e2b65/1fbc4bXaWZDX/jipsltvahl4CH4Pi9l9YZopuBskFbS4mivMXOAxT9n_sc_BWl5oLNtra3aF6weNeQ2qki17_3nBvI_dROy1U8tofCWfPX2NL49sWZ0YqPIIPHkKo0ehKZ1vGwo3-oPT8zuTSNWUYCfDOvtmg7wQW6kcvZE973noBCAU20Q-J0DSf6-_U_GvHD8fugbI2XRmRGq4W3RW-_bD5cBWrzBOWbH70coSEKXsTff2a5u4WpEn0nvSOWFvpgTjGQ6M-GXL3z5tcFT2rFP9XfTFghk2rsqq_xw5nzvwAmdD3C37SZ5w-5mFlFShqM78fO7dcNGTLtL8Grsn56WPa1FDD7Gmwt1_pbpcveObcN70BQ3TuaOFqLQcepf_swsli1XvM02St7uYyVpeZ-jKPTbomroYEyva9Vq56Obgyqafyg2zZQVa9eF3FjDkU_qRcM8FFDbtQ6vyELGYM7UK7M7bJ3RCGvD2EcHRXyohC3TwqZ41kRJvHLpdO2MrYodr04CM8auKE7kkddf1b1z2kzHKwJG2owgn_xr9HnN-zScPm2AxSJ0__pGGVdZjIUMz_CAZd98S55t30notJCaHKtpHgjOuSNp4YztSuK3Vv5o0TMIZta6P5D2Texo-vwfqgFbotwyRsDgVg9uW4OTFerrqlTNbFqKWvVJ9r64mSuNfhwc2JI6T_Wv7m_giG7XfOYMNU_5uSWt6lvGfvjCIZMIXoLdNX3rzVg9a0m_lQf0zrRS90JuuEjhYfy-paIhnkg8Pf66EVf7l8N96rVX0WP3Mzlx-6sngcdw6GHt_C-tAlu11D5Az-VdJH59vpcXzOqIR-JRUoZb11TdnpmfDaltFCHdtQ1rzLfvXfyNQPhd7Ao0ctGPI5_Ub8lE0tMEkSp1pcwgQ-bZdBZgTp-MF975uknJWUGgVfth9p6xuAGOdgQz65U9TPWR0lvHpnLKatEtLWf1lzy731DcV_7lPI0xdanbMU_3xlUBS0m1uSntw4t6zlBWrFH6b-WYkZ0zsWo4OeS-D1PnoshW649C1V_iOxd22Y48pt1_-UTt_BS-ElKe4yp05_5lJWBLv6Mz2dKibdRJcr9z6Ef8h4W_DLh2CiL5vCpV24T5Sfu9Sup-yyY2SdS3A6TJVMxS7tozjj9InsYRSuTLVCpjVISZMMvso2z6SnOdTPZC9p-9lh2ldiwW0LIWQfStyWr4pELUasssAFPBiyS89WLMY_r4Ap0tWKnhCGXc40UbZ1KwvA31-7Vr6Ux0mGvcfdWVvIM_ukgHIPKVIVrwnsFT5qhU10XCGRVV3JQFhN1b-3jh4A2pEWej4SZJ481QB2tsipIt2tWObd9_Q4phyGbFu4yWM5JaLjXanzdzw4PNcf2wavRY6DMYSueONaLTVfJ-0P48gD1FuvEURfjVdS5DYr2gLPnMv0rCfVKAaNFIy6CAlAinRCgAxZQtQeer2nLyvGL0QOkLDlTglQem40zuXcL4MbY8dIXPIlnV2HYEbG6qgjr4zI5T_G9NsUbWb-aMp50PnEkXM_uZMkPhgsNb2IlO8Gn1KBlm8pUOu-5OyHXEziecNGS-8xFL3892C05qoqwI_t6Mdtxhcqhx_Fjok7qVFq9_Ojz9rB9K74bIduePaNB-5Q8FWPS9I4vwYPVk5vArshpLh8QZef_1WgZPc66jJM_ximLOUFOxRe5Y75O_hiG9bykzxoA-cN-u11PXt3HhdeIoKVL9swiC6XDVe9vPAqIUe4rMG0f9-XQnaVWUmA3G8btM7UpYulbwbs2HnbQ8s3UcGeCtElTiiu505ZVE-0v0NjtJ1pcrhvVA01f2zCOwFFWt3jRm_PljK3Fct4437em5Z_BFVaNv9VvGr6GlEalqLhrFmhdcx4XXTeOSWOBA5CY3U9e9A4HkUtho-dkClzFcoOc-aOLPcANmUq-XKOXXhkvRSmWmR_NJyLq8sD2eYisx7q8iU_KlzXj5i23HYuksOHDomDC-9nD0QsTVJoI6VYblM3js21cISV-rpxDu1qRw_WNho0TMSeO1u7sAsE84POCIIX3bi-1K-Ktk3F_oDy5o-o0qjsdu2Ubi1DWhN0eM3T5P_dxRKmh3pYEIzNacV9VRaYVM62jUrIu8L6lnBjf5ug9r8ajyduWxReFu8DoiW9qNFaTNevhI48YrsAtyofQlSuPGWjZzeaaYE-jtg2zJUnOaV-BY6Jm-uSeYVAQi7Y4Ie-C081L4sEf_WO8PI2DeqgSF1HDGdOHCLqsVfr_lFnn0xH4JfUurtAP_8Z5k_m1apU3fffS9pYUOl1YhJv63NHXQkth7wbxE4XzgCCBA5awkouZ1yUb20AerMk6b_wZH--RgDVxXhLs2-PeORN1Ob4NA1F7vhKq-E5JdHh_sqhpd_5bca_uSUdps7Bk4Zdm9LJrOdcl64cIkrDZNjPc_bdvWRwNmT6ODA8rij0LBSXGgbcBFy4SLsAGIXiw36b4DTfGMzHb1t2bHZ-AQF0nysROG8HL8W8_YMLYpdL_ECk3vw3c5Rnalpy_146xk-F5ju0_3XsGEuYoLr04kIOaWDHXTrtFZ_LVUwmbiLw9y_as1nu5O7FfU3TyqD1qHwxFU3u1bBnZenp8M89mEUPxLRK510XngmIqHPbxVPirjoD10wrbpV-KMcvx58yYGc9mxM6DHQPxy8fsnqixPrvckXP7rXw1Jb7OzF_XUlG7qaliKRvdd6ry5ohKpbT4-4pkOasKBwlPZgXLkQ9IUIEDzny2H6WzVWfjzDZ45dozRM23771sURVmPggTt9aBM3mlRum_ofvORsaUClmc-J8msE23wndxcwb9rx2bYOwV387Anu-99xWTy1C2NAXW_5hhL7u5UOE17q7At3dSuQtRxYYhu7mfyp4-lFLNgLBX8iDBvwa7UT-GxUdJbyBcPcseqNITvYPxA8N8NvCB3pv4JTOHWQRVrQKaMI_vxmHHxSmSdR_ta65WPhSQ",
-      "description": "Семья выживает в мире, где звук может привлечь смертоносных существ.",
-      "category": "ужасы",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "25",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "image": "https://cdn.marvel.com/content/1x/shangchi_lob_crd_07.jpg",
+      "description": "Shang-Chi must confront his past and become the master of the Ten Rings to prevent his father's sinister plans.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 26,
-      "title": "Пираты Карибского моря: Проклятие Черной жемчужины",
-      "image": "https://m.media-amazon.com/images/I/5191qhJ6XsL._AC_UF894,1000_QL80_.jpg",
-      "description": "Пиратские приключения капитана Джека Воробья и проклятого корабля Черной жемчужины.",
-      "category": "приключения",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "26",
+      "title": "Eternals",
+      "image": "https://cdn.marvel.com/content/1x/eternals_lob_crd_06.jpg",
+      "description": "A group of immortal beings known as the Eternals reunite to protect Earth from their ancient enemies, the Deviants.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 27,
-      "title": "Хатико: Самый верный друг",
-      "image": "https://www.sosyalelestiri.com/wp-content/uploads/2018/02/864bfe340bab816874c8ce195ab0dc32.jpg",
-      "description": "История верности собаки по кличке Хатико, который ждал своего хозяина на станции много лет.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "27",
+      "title": "Spider-Man: No Way Home",
+      "image": "https://cdn.marvel.com/content/1x/spider-mannowayhome_lob_crd_03.jpg",
+      "description": "Peter Parker's identity is revealed, and he seeks help from Doctor Strange to undo the consequences while facing multiple villains from different realities.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 28,
-      "title": "ВАЛЛ-И",
-      "image": "https://m.media-amazon.com/images/I/91vYNYvKXvL._RI_.jpg",
-      "description": "Мультфильм о роботе-уборщике, оставшемся на Земле после ухода людей и влюбившемся в другого робота.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "28",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "image": "https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg",
+      "description": "Doctor Strange faces new threats and explores the mystical multiverse in an effort to protect reality.",
+      "category": "Fantasy"
     },
     {
-      "id": 30,
-      "title": "Трасса 60",
-      "image": "https://thumbs.dfs.ivi.ru/storage28/contents/b/0/c0abbc6ea2d809fa3c73647819204f.jpg",
-      "description": "Драматическая история трех друзей, которые отправляются в путешествие по американской дороге Route 60.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "29",
+      "title": "Thor: Love and Thunder",
+      "image": "https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg",
+      "description": "Thor returns with Jane Foster as the new Thor and must confront powerful enemies and his own inner conflicts.",
+      "category": "Fantasy"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 31,
-      "title": "Бегущий человек",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d7596f3c-7b4a-4c16-81db-dc57ac11c039/600x900",
-      "description": "Бывший врач, обвиненный в убийстве жены, бежит от закона, чтобы доказать свою невиновность.",
-      "category": "триллер",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "30",
+      "title": "Black Panther: Wakanda Forever",
+      "image": "https://cdn.marvel.com/content/1x/blackpantherwakandaforever_lob_crd_06.jpg",
+      "description": "The sequel to Black Panther continues the story of Wakanda and its heroes in the face of new challenges.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 32,
-      "title": "Апокалипсис сегодня",
-      "image": "https://images4.alphacoders.com/144/thumb-1920-144856.jpg",
-      "description": "История офицера, отправленного на задание убить полковника, ставшего безумным во время войны во Вьетнаме.",
-      "category": "военный",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "31",
+      "title": "Ant-Man and The Wasp: Quantumania",
+      "image": "https://cdn.marvel.com/content/1x/antmanandthewaspquantumania_lob_crd_03.jpg",
+      "description": "Ant-Man and the Wasp embark on a new adventure involving the quantum realm and face a powerful new threat.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 33,
-      "title": "Молчание ягнят",
-      "image": "https://www.sociofilm.net/wp-content/uploads/2015/08/image_wall_6439.jpg",
-      "description": "Молодая агентка ФБР просит помощи у заключенного серийного убийцы, чтобы поймать другого маньяка.",
-      "category": "триллер",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "32",
+      "title": "https://cdn.marvel.com/content/1x/guardiansofthegalaxyvolume3_lob_crd_03.jpg",
+      "image": "guardians_of_the_galaxy_vol_3.jpg",
+      "description": "The Guardians of the Galaxy return for another cosmic adventure while facing personal and cosmic challenges.",
+      "category": "Sci-Fi"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 34,
-      "title": "Бриллиантовая рука",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqyybzMks2YCpISZ26EWuYiW1CVZyuarciJbvxq__gDJM1ejzEbzpEL6xP9rkmnkY_sU&usqp=CAU",
-      "description": "Комедия о неудачливом краже бриллиантов и запутанной истории вокруг киноиндустрии.",
-      "category": "комедия",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "33",
+      "title": "Blade",
+      "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/8/8e/New_Blade_Logo.jpg/revision/latest?cb=20220805190832",
+      "description": "Blade, a half-vampire, half-mortal, becomes a vampire hunter, seeking vengeance for his mother's death.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 35,
-      "title": "Огни большого города",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTk2MzE4ODg4MV5BMl5BanBnXkFtZTYwMzEzNDQ5._V1_.jpg",
-      "description": "Драматическая комедия о бродячем артисте и богатой слепой девушке, которая его не узнает.",
-      "category": "комедия",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "34",
+      "title": "Fantastic Four",
+      "image": "https://cdn.marvel.com/content/1x/fantasticfour_lob_crd_01.jpg",
+      "description": "The Fantastic Four gain superhuman powers after being exposed to cosmic rays and must use their abilities to protect the world.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 36,
-      "title": "Исход",
-      "image": "https://www.castlerock.ru/upload/medialibrary/906/906d3fe962f33346a6a86cab5b362437.JPG",
-      "description": "История Моисея, который ведет еврейский народ к освобождению из египетского рабства.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "35",
+      "title": "X-Men",
+      "image": "https://cdn.marvel.com/content/1x/fox_x-menapocalypse_lob_crd_01.jpg",
+      "description": "A team of mutants with extraordinary abilities fights for the peaceful coexistence of mutants and humans.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 37,
-      "title": "Шрэк",
-      "image": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/denver/Shrek_AC0930D7-C152-6041-01DD91528A8E5F4D_ac253662-f5e4-0192-1f656ad08be746fc.jpg",
-      "description": "Мультфильм о зеленом огре Шрэке, который отправляется на спасение принцессы Фионы.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "36",
+      "title": "Deadpool",
+      "image": "https://cdn.marvel.com/content/1x/deadpool_lob_crd_02.jpg",
+      "description": "Wade Wilson, a former mercenary, becomes the wisecracking anti-hero Deadpool and hunts down the man who nearly destroyed his life.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 38,
-      "title": "Темный рыцарь: Возрождение легенды",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dark_Knight_Rises.jpg",
-      "description": "Финальная часть трилогии о Бэтмене, который сталкивается с террористом Бейном.",
-      "category": "боевик",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "37",
+      "title": "X2: X-Men United",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/6/69/X-men2_poster.jpg",
+      "description": "The X-Men team up with their enemies, the Brotherhood of Mutants, to stop a mutant-hating military scientist's plans.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 39,
-      "title": "Достучаться до небес",
-      "image": "https://cdn.inprnt.com/thumbs/26/fb/26fbbbe9f1b72aaec9aa1b2de35bacd0.jpg?response-cache-control=max-age=2628000",
-      "description": "Двое парней, узнав о своей неизлечимой болезни, отправляются в путешествие на последнюю свою неделю жизни.",
-      "category": "драма",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "38",
+      "title": "Spider-Man",
+      "image": "https://cdn.marvel.com/content/1x/spider-man_lob_crd_01.jpg",
+      "description": "Peter Parker gains spider-like abilities and uses them to fight crime as the masked superhero Spider-Man.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 40,
-      "title": "Голодные игры",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3mWB4dcdWeahHN5iCy7wIyHqEaLUvKJWmQ&usqp=CAU",
-      "description": "Фантастический боевик о девушке, вынужденной сражаться за выживание в жестокой игре.",
-      "category": "фантастика",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
+      "id": "39",
+      "title": "X-Men: First Class",
+      "image": "https://images.justwatch.com/poster/185094672/s718/x-men-first-class.%7Bformat%7D",
+      "description": "The origins of the X-Men are explored as they unite to prevent a mutant supremacist from starting a nuclear war.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     },
     {
-      "id": 41,
-      "title": "Криминальное чтиво",
-      "image": "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/2/mia-wallace-giuseppe-cristiano.jpg",
-      "description": "Стилизованная криминальная история, переплетающаяся между несколькими персонажами.",
-      "category": "криминал",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 42,
-      "title": "Лунтик",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/cf021e0a-081b-4755-8147-d6284f3bfee2/600x900",
-      "description": "Забавный мультсериал о маленьком желтом существе по имени Лунтик и его друзьях, которые исследуют мир и решают разные задачи.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 43,
-      "title": "Приключения Алисы",
-      "image": "https://cdn.azbooka.ru/cv/w1100/ea70df56-205c-4753-b676-3036a72b54c1.jpg",
-      "description": "Фантастический мультфильм о маленькой девочке по имени Алиса, которая попадает в волшебный мир и встречает удивительных существ.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 44,
-      "title": "Том и Джерри",
-      "image": "https://www.m24.ru/b/d/nBkSUhL2hFAlms6_Ib6BvMKnxdDs9Zu-yyqYy7jLs2KQeXqLBmmcmzZh59JUtRPBsdaJqSfJd54qEr7t1mNwKSGK7WY=yXkLz_GRk7EdOYx7q-pHHA.jpg",
-      "description": "Классический мультсериал о вечной схватке кошки Тома и мышки Джерри, которые постоянно попадают в забавные и непредсказуемые ситуации.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 45,
-      "title": "Король Лев",
-      "image": "https://upload.wikimedia.org/wikipedia/ru/6/62/Lion_king_ver1.jpg",
-      "description": "Эпическая анимационная история о молодом льве Симбе, который должен пройти свой путь, чтобы стать королем Саванны.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 46,
-      "title": "Красавица и Чудовище",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/ed078f6d-65a8-4c2c-a8df-aba6383b841f/600x900",
-      "description": "Романтический мультфильм о прекрасной девушке Белль, которая встречает загадочное Чудовище и узнает, что красота находится внутри.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 47,
-      "title": "Как приручить дракона",
-      "image": "https://static.kinoafisha.info/k/movie_posters/canvas/800x1200/upload/movie_posters/0/1/9/5636910/9ffa7b6ae0ae0db22e228df85100c90f.jpg",
-      "description": "Приключенческая история о юном Викинге Хиккапе, который дружит с драконом Беззубиком и помогает установить мир между людьми и драконами",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 48,
-      "title": "Загадочный сад",
-      "image": "https://thumbs.dfs.ivi.ru/storage38/contents/1/8/b5bb1687c87dc1668b96ae85cfedc7.jpg",
-      "description": "История о девочке, которая открывает тайный сад и вместе с новыми друзьями восстанавливает его к жизни.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 50,
-      "title": "Атлантида: Затерянный мир ",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/f98bcf6d-d34c-4d4d-b3cc-f5325bbe3e0d/300x450",
-      "description": "Группа друзей обнаруживает тайну затерянного острова и сталкивается с опасностями в своем стремлении раскрыть его загадку.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 51,
-      "title": "Приключения волшебного пера",
-      "image": "https://cm.author.today/content/2023/04/10/a6aec91bc84e4da89a14e139dbcbf601.jpg?height=750&width=750&rmode=max",
-      "description": "Маленький мальчик обнаруживает волшебное перо, которое превращает все его рисунки в реальность, и начинает увлекательные приключения.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 52,
-      "title": "Забытый мир динозавров",
-      "image": "https://static.onlinemultfilmy.ru/img/zateryannyj-mir-ostrov-dinozavrov.jpg",
-      "description": "Группа исследователей попадает в забытый мир, населенный динозаврами, и они должны найти способ вернуться назад.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "id": 53,
-      "title": "Приключения маленькой рыбки",
-      "image": "https://static.onlinemultfilmy.ru/img/malenkaya-rybka-poslednyaya-bitva.jpg",
-      "description": "Маленькая рыбка отправляется в увлекательное путешествие по океану, где она встречает новых друзей и познает опасности морского мира.",
-      "category": "анимация",
-      "price": "330",
-      "trailer": " https://www.youtube.com/embed/",
-      "film": ""
-    },
-    {
-      "title": "Сердце океана",
-      "description": "Кулон из прочного ювелирного сплава с гальваническим покрытием серебром вдохновлен украшением «Сердце океана» из фильма «Титаник». Аксессуар в виде сердца изготовили из крупного рубинового кристалла, а небольшие прозрачные использовали для обрамления и длинной цепочки.",
-      "price": "945",
-      "category": "кулоны",
-      "image": "https://st.tsum.com/btrx/i/11/75/98/25/02_1526.jpg?u=1612992694",
-      "id": 54
-    }
-  ],
-  "accessory": [
-    {
-      "title": "Сердце океана",
-      "description": "Кулон из прочного ювелирного сплава с гальваническим покрытием серебром вдохновлен украшением «Сердце океана» из фильма «Титаник». Аксессуар в виде сердца изготовили из крупного рубинового кристалла, а небольшие прозрачные использовали для обрамления и длинной цепочки.",
-      "price": "950",
-      "category": "кулоны",
-      "image": "https://st.tsum.com/btrx/i/11/75/98/25/01_1526.jpg?u=1612992694",
-      "id": 1
+      "id": "40",
+      "title": "The Wolverine",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/5/57/The_Wolverine.jpg",
+      "description": "Wolverine travels to Japan and faces both physical and emotional battles as he confronts a mysterious figure from his past.",
+      "category": "Action"
+      "trailer": "https://www.youtube.com/embed/"
     }
   ]
 }
