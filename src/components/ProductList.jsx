@@ -108,18 +108,10 @@ const ProductList = () => {
             onChange={(e) => setCategory(e.target.value)}
             sx={{ color: "black" }}
           >
-            <MenuItem value={"all"}>Все</MenuItem>
-            <MenuItem value={"драма"}>Драма</MenuItem>
-            <MenuItem value={"боевик"}>Боевик</MenuItem>
-            <MenuItem value={"вестерн"}>Вестерн</MenuItem>
-            <MenuItem value={"триллер"}>Триллер</MenuItem>
-            <MenuItem value={"экшн"}>Экшэн</MenuItem>
-            <MenuItem value={"военный"}>Военный</MenuItem>
-            <MenuItem value={"комедия"}>Комедия</MenuItem>
-            <MenuItem value={"ужасы"}>Ужасы</MenuItem>
-            <MenuItem value={"приключения"}>Приключения</MenuItem>
-            <MenuItem value={"научная фантастика"}>Научная Фантастика</MenuItem>
-            <MenuItem value={"анимация"}>Анимация</MenuItem>
+            <MenuItem value={"all"}>All</MenuItem>
+            <MenuItem value={"Action"}>Action</MenuItem>
+            <MenuItem value={"Fantasy"}>Fantasy</MenuItem>
+            <MenuItem value={"Sci-Fi"}>Sci-Fi</MenuItem>
           </Select>
         </FormControl>
       </Box>

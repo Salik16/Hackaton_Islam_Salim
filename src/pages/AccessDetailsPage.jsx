@@ -13,11 +13,21 @@ import {
 import { Link, useParams } from "react-router-dom";
 import { useProduct } from "../contexts/ProductsContextProvider";
 import { useAccessory } from "../contexts/AccessoryContextProvider";
+import { IconButton } from "@mui/material";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import { AddShoppingCart } from "@mui/icons-material";
+import { useCart } from "../contexts/CartContextProvider";
+import { useAuth } from "../contexts/AuthContextProvider";
+import { useFav } from "../contexts/FavoriteContextProvider";
 
 const AccessDetailsPage = () => {
   const { oneProduct, getOneProduct } = useAccessory();
+  const { deleteProduct } = useAccessory();
+  const { addProductToCart, isAlreadyInCart } = useCart();
+  const { isAdmin } = useAuth();
 
-  const [value, setValue] = useState(4);
+  const { isAlreadyInFav, addToFavorite } = useFav();
+
   const params = useParams();
   useEffect(() => {
     getOneProduct(params.id);
@@ -33,7 +43,7 @@ const AccessDetailsPage = () => {
             image={oneProduct.image}
             title={oneProduct.image}
           />
-          <Box bgcolor={" #1976d2"}>
+          <Box>
             <CardContent>
               <Typography gutterBottom variant="h3" component="div">
                 {oneProduct.title}
@@ -46,14 +56,54 @@ const AccessDetailsPage = () => {
 
             <CardActions sx={{ display: "block" }}>
               <Box>
-                <Typography>Raiting</Typography>
-                <Rating
-                  name="simple-controlled"
-                  value={value}
-                  onChange={(event, newValue) => {
-                    setValue(newValue);
-                  }}
-                />
+                {isAdmin() ? (
+                  <CardActions>
+                    <Button
+                      size="small"
+                      sx={{ color: " black" }}
+                      component={Link}
+                      to={`/aceessEdit/${oneProduct.id}`}
+                    >
+                      Edit
+                    </Button>
+                    <Button
+                      size="small"
+                      sx={{ color: "black" }}
+                      onClick={() => deleteProduct(oneProduct.id)}
+                    >
+                      Delete
+                    </Button>
+                    <IconButton
+                      onClick={() => addProductToCart(oneProduct)}
+                      sx={{
+                        color: `${
+                          isAlreadyInCart(oneProduct.id) ? "red" : "black"
+                        }`,
+                      }}
+                    >
+                      <AddShoppingCart />
+                    </IconButton>
+                  </CardActions>
+                ) : (
+                  <CardActions>
+                    <IconButton
+                      onClick={() => addProductToCart(oneProduct)}
+                      sx={{
+                        color: `${
+                          isAlreadyInCart(oneProduct.id) ? "red" : "black"
+                        }`,
+                        fontSize: "15px",
+                      }}
+                    >
+                      {`${
+                        isAlreadyInCart(oneProduct.id)
+                          ? "Remove From Cart"
+                          : "Add To Cart"
+                      }`}
+                      <AddShoppingCart />
+                    </IconButton>
+                  </CardActions>
+                )}
               </Box>
               <Button
                 component={Link}

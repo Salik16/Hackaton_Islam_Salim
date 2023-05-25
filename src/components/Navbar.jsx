@@ -22,7 +22,7 @@ import { useFav } from "../contexts/FavoriteContextProvider";
 
 const pages = [
   { title: "Films", link: "/" },
-  { title: "Accessory", link: "/accessory" },
+  { title: "Comics", link: "/comics" },
 ];
 const adminPages = [{ title: "Add Product", link: "/add" }];
 
@@ -59,15 +59,9 @@ function Navbar() {
   let data = JSON.parse(localStorage.getItem("users"));
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "-moz-initial" }}>
+    <AppBar sx={{ bgcolor: "white" }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmET1hi7QwqE5LsxL3BOFC9gqJo-vrY9Co4Q&usqp=CAU"
-            alt=""
-            height={40}
-          />
-
           <Typography
             variant="h6"
             noWrap
@@ -81,7 +75,11 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            KinoGo
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png"
+              alt=""
+              width={70}
+            />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -161,12 +159,14 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <NavLink
-              style={{ color: "black", textDecoration: "none" }}
-              to={"/premium"}
-            >
-              Get a Premium Subscription
-            </NavLink>
+            {!data || !data.subscr ? (
+              <NavLink
+                style={{ color: "black", textDecoration: "none" }}
+                to={"/premium"}
+              >
+                Get a Premium Subscription
+              </NavLink>
+            ) : null}
 
             <IconButton component={Link} to="/fav" sx={{ color: "white" }}>
               <Badge badgeContent={favLength} color="default">
@@ -178,7 +178,6 @@ function Navbar() {
                 <ShoppingCart sx={{ color: "black" }} />
               </Badge>
             </IconButton>
-
             {user ? (
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -186,15 +185,10 @@ function Navbar() {
                 </IconButton>
               </Tooltip>
             ) : (
-              <Button
-                component={Link}
-                to={"/auth"}
-                style={{ color: "inherit" }}
-              >
+              <Button component={Link} to={"/auth"} style={{ color: "black" }}>
                 Login
               </Button>
             )}
-
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"

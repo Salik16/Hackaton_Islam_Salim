@@ -34,7 +34,7 @@ const MainRoutes = () => {
         <Route path="/pay" element={<PayPage />} />
         <Route path="/fav" element={<FavPage />} />
         <Route path="/premium" element={<PremiumPage />} />
-        <Route path="/accessory" element={<AccessoryList />} />
+        <Route path="/comics" element={<AccessoryList />} />
       </Route>
     </Routes>
   );

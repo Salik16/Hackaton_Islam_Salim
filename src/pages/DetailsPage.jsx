@@ -7,67 +7,115 @@ import {
   CardActions,
   CardContent,
   CardMedia,
-  Rating,
   Typography,
 } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { useProduct } from "../contexts/ProductsContextProvider";
 import { useAuth } from "../contexts/AuthContextProvider";
 
+import { IconButton } from "@mui/material";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+
+import { useCart } from "../contexts/CartContextProvider";
+
+import { useFav } from "../contexts/FavoriteContextProvider";
+
 const DetailsPage = () => {
   const { oneProduct, getOneProduct } = useProduct();
 
-  const [value, setValue] = useState(4);
   const params = useParams();
   useEffect(() => {
     getOneProduct(params.id);
   }, []);
 
   let data = JSON.parse(localStorage.getItem("users"));
+  const { deleteProduct } = useProduct();
+  const { addProductToCart, isAlreadyInCart } = useCart();
+  const { isAdmin } = useAuth();
+
+  const { isAlreadyInFav, addToFavorite } = useFav();
+
   return (
     <div>
       {oneProduct ? (
-        <Card sx={{ display: "flex" }}>
-          <CardMedia
-            component="img"
-            sx={{ width: 350 }}
-            image={oneProduct.image}
-            title={oneProduct.image}
-          />
-          <Box bgcolor={" #1976d2"}>
-            <CardContent>
-              <Typography gutterBottom variant="h3" component="div">
-                {oneProduct.title}
-              </Typography>
-              <Typography variant="h5" color="text.secondary">
-                {oneProduct.description}
-              </Typography>
-              <Typography variant="h5">${oneProduct.price}</Typography>
-            </CardContent>
-            {!data || !data.subscr ? (
-              <iframe
-                width="700"
-                height="400"
-                src={oneProduct.trailer}
-                title={oneProduct.title}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            ) : (
-              <video src={oneProduct.film} controls width={600}></video>
-            )}
-
-            <CardActions sx={{ display: "block" }}>
+        <Card>
+          <Box bgcolor={"rgb(214, 214, 214)"}>
+            <Box sx={{ display: "flex" }}>
+              <CardMedia
+                component="img"
+                image={oneProduct.image}
+                title={oneProduct.image}
+                sx={{ marginTop: "20px", height: 500 }}
+              />
               <Box>
-                <Typography>Raiting</Typography>
-                <Rating
-                  name="simple-controlled"
-                  value={value}
-                  onChange={(event, newValue) => {
-                    setValue(newValue);
-                  }}
-                />
+                <CardContent>
+                  <Typography gutterBottom variant="h3" component="div">
+                    {oneProduct.title}
+                  </Typography>
+                  <Typography variant="h5" color="text.secondary">
+                    {oneProduct.description}
+                  </Typography>
+                </CardContent>
+                {!data || !data.subscr ? (
+                  <iframe
+                    width="700"
+                    height="400"
+                    src={oneProduct.trailer}
+                    title={oneProduct.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                ) : (
+                  <video src={oneProduct.film} controls width={600}></video>
+                )}
               </Box>
+            </Box>
+
+            <CardActions sx={{ display: "flex" }}>
+              {isAdmin() ? (
+                <CardActions>
+                  <Button
+                    size="small"
+                    sx={{ color: "black" }}
+                    component={Link}
+                    to={`/edit/${oneProduct.id}`}
+                  >
+                    Edit
+                  </Button>
+                  <Button
+                    size="small"
+                    sx={{ color: "black" }}
+                    onClick={() => deleteProduct(oneProduct.id)}
+                  >
+                    Delete
+                  </Button>
+                </CardActions>
+              ) : (
+                <CardActions>
+                  <Button
+                    size="small"
+                    sx={{ color: "black" }}
+                    component={Link}
+                    to={`/details/${oneProduct.id}`}
+                  >
+                    Details
+                  </Button>
+
+                  <IconButton
+                    onClick={() => addToFavorite(oneProduct)}
+                    sx={{
+                      color: `${
+                        isAlreadyInFav(oneProduct.id)
+                          ? "red"
+                          : " rgb(214, 214, 214)"
+                      }`,
+                    }}
+                  >
+                    <FavoriteIcon />
+                  </IconButton>
+                </CardActions>
+              )}
+
               <Button
                 component={Link}
                 to="/"

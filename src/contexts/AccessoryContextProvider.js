@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer } from "react";
-import { ACTIONS, API, API2, LIMIT } from "../const";
+import { ACTIONS, API, ACCESSORY, LIMIT } from "../const";
 import axios from "axios";
 
 const accessoryContext = createContext();
@@ -30,7 +30,7 @@ const AccessoryContextProvider = ({ children }) => {
   async function getProduct() {
     try {
       let res = await axios(
-        `${API2}${window.location.search || `?_limit=${LIMIT}`}`
+        `${ACCESSORY}${window.location.search || `?_limit=${LIMIT}`}`
       );
       const totalPages = Math.ceil(res.headers["x-total-count"] / LIMIT);
       dispatch({
@@ -48,7 +48,7 @@ const AccessoryContextProvider = ({ children }) => {
 
   const addProduct = async (newProduct) => {
     try {
-      await axios.post(API2, newProduct);
+      await axios.post(ACCESSORY, newProduct);
     } catch (error) {
       console.log(error);
     }
@@ -56,7 +56,7 @@ const AccessoryContextProvider = ({ children }) => {
 
   async function deleteProduct(id) {
     try {
-      await axios.delete(`${API2}/${id}`);
+      await axios.delete(`${ACCESSORY}/${id}`);
       getProduct();
     } catch (error) {
       console.log(error);
@@ -65,7 +65,7 @@ const AccessoryContextProvider = ({ children }) => {
 
   async function getOneProduct(id) {
     try {
-      let res = await axios.get(`${API2}/${id}`);
+      let res = await axios.get(`${ACCESSORY}/${id}`);
       dispatch({
         type: ACTIONS.oneProduct,
         payload: res.data,
@@ -77,7 +77,7 @@ const AccessoryContextProvider = ({ children }) => {
 
   async function editProduct(obj, id) {
     try {
-      await axios.patch(`${API2}/${id}`, obj);
+      await axios.patch(`${ACCESSORY}/${id}`, obj);
     } catch (error) {
       console.log(error);
     }

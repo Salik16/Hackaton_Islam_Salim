@@ -13,7 +13,7 @@ export const ACTIONS = {
   accessory: "accessory",
 };
 export const API = "http://localhost:8000/products";
-export const API2 = "http://localhost:8000/accessory";
+export const ACCESSORY = "http://localhost:8000/comics";
 
 export const ADMINS = ["admin@admin.com", "adminspage"];
 export function totalSumFunc(products) {

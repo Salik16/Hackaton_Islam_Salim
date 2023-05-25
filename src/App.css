@@ -1,6 +1,16 @@
 .App {
   text-align: center;
   height: 100%;
-  background-color: rgb(214, 214, 214);
-  background-size: 100%;
+}
+
+.cardMedia {
+  cursor: pointer;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  transform: 0.3s ease-in-out;
+}
+
+.cardMedia:hover {
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(-10px);
 }
