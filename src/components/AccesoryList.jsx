@@ -112,7 +112,7 @@ const AccessoryList = () => {
       </Box>
       <Grid container spacing={2}>
         {accessory.map((item) => (
-          <Grid key={item.id} item md={4} sm={6}>
+          <Grid key={item.id} item md={4} sm={6} xs={8}>
             <AccessoryCard item={item} key={item.id} />
           </Grid>
         ))}

@@ -117,7 +117,7 @@ const ProductList = () => {
       </Box>
       <Grid container spacing={3} wrap="wrap">
         {products.map((item) => (
-          <Grid key={item.id} item md={4} sm={6}>
+          <Grid key={item.id} item md={4} sm={6} xs={8}>
             <ProductCard item={item} key={item.id} />
           </Grid>
         ))}

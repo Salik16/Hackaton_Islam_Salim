@@ -69,6 +69,7 @@ const DetailsPage = () => {
                   <iframe
                     className="trailer"
                     width="100%"
+                    height="70%"
                     src={oneProduct.trailer}
                     title={oneProduct.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -85,7 +86,7 @@ const DetailsPage = () => {
               </Box>
             </Box>
 
-            <CardActions sx={{ display: "flex" }}>
+            <CardActions sx={{ display: "flex", alignItems: "flex-end" }}>
               {isAdmin() ? (
                 <CardActions>
                   <Button
